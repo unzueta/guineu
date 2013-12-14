@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8015) - Send Emails via SMTP</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8015) - Send Emails via SMTP</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Sends an e-mail using the SMTP protocol.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8015, cFrom, cTo, cSrv, cUser, cPwd, cSubject, cBody )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cFrom</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Your e-mail address. This can be any valid or invalid e-mail address. However, some SMTP servers only accept e-mails for transport that match the user account.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cTo</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The e-mail address of the recipient. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cSrv</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The name or IP address of the sending SMTP server. You either need an account on this SMTP server, or the server must relay mails anonymously.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cUser</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The user or logon name for the SMTP server, if you must provide the server with logon credentials.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cPwd</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The password for the SMTP server logon.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cSubject</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The subject line for your e-mail address. Although this parameter can be an empty strings, it&apos;s recommended to specify a subject. Otherwise spam filters might reject your message.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cBody</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The actual content of the mail as plain text. There&apos;s no limit for the length of the message in Guineu. However, most SMTP servers impose a maximum size.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Sending mails requires internet connectivity on the sending machine. You can use e-mails on mobile devices as an alternative to a printed receipt, because printing is quite difficult to implement on mobile devices.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Dependencies</text></para>
+    <para styleclass="Explanation"><table styleclass="Description Table" rowcount="2" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:201px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Operating System</text></para>
+        </td>
+        <td style="width:493px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Required libraries and modules at runtime</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:201px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows Mobile</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows CE</text></para>
+        </td>
+        <td style="width:493px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">OpenNETCF.Net.Mail.dll</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"></para>
+  </body>
+</topic>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns:xsi="http://www.w3.org/2001/XInclude">
+  <topicref type="topic" id="392104118222823" build="ALL" modified="2007-05-08T09:31:41.747Z" icon="0">
+    <caption translate="true">Guineu</caption>
+    <topicref type="topic" id="392073675500916" build="ALL" modified="2007-05-08T09:31:48.787Z" icon="0" href="Introduction">
+      <caption translate="true">Introduction</caption>
+      <topicref type="topic" id="392102177053898" build="ALL" modified="2007-05-08T09:10:06.114Z" icon="0" href="Requirements">
+        <caption translate="true">Requirements</caption>
+      </topicref>
+      <topicref type="topic" id="392103799985257" build="ALL" modified="2007-05-08T09:38:13.951Z" icon="0" href="License">
+        <caption translate="true">License</caption>
+      </topicref>
+      <topicref type="topic" id="392119329180193" build="ALL" modified="2007-05-10T01:21:53.838Z" icon="0" href="Acknowledgements">
+        <caption translate="true">Acknowledgements</caption>
+      </topicref>
+      <topicref type="topic" id="392121013952548" build="ALL" modified="2007-05-10T00:50:39.362Z" icon="0" href="Change_log">
+        <caption translate="true">Change log</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="392072916177095" build="ALL" modified="2009-02-20T16:38:45.423Z" icon="0" href="Getting_Started">
+      <caption translate="true">Getting started</caption>
+      <topicref type="topic" id="397938750666233" build="ALL" modified="2009-03-02T22:46:40.924Z" icon="0" href="First_steps_-_Creating_a_mobil">
+        <caption translate="true">Mobile development</caption>
+      </topicref>
+      <topicref type="topic" id="392105314464503" build="ALL" modified="2009-03-02T23:06:36.937Z" icon="0" href="Installation_on_mono">
+        <caption translate="true">Developing on MONO</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="394098714513506" build="ALL" modified="2007-11-23T23:10:54.638Z" icon="0" href="Developing_with_Guineu">
+      <caption translate="true">Developing with Guineu</caption>
+      <topicref type="topic" id="394101676947766" build="ALL" modified="2007-11-23T22:59:32.984Z" icon="0" href="Windows_Mobile_Application">
+        <caption translate="true">Windows Mobile Application</caption>
+        <topicref type="topic" id="392125227058469" build="ALL" modified="2007-11-23T23:09:46.260Z" icon="0" href="Installation_on_PDAs">
+          <caption translate="true">Installation on PDAs</caption>
+        </topicref>
+        <topicref type="topic" id="398750500411886" build="ALL" modified="2009-03-03T00:20:03.487Z" icon="0" href="Whats_different_on_Windows_Mob">
+          <caption translate="true">What's different in Windows Mobile</caption>
+        </topicref>
+        <topicref type="topic" id="402099605980417" build="ALL" modified="2010-01-31T20:54:05.136Z" icon="0" href="SQL_Server_Compact_Edition">
+          <caption translate="true">SQL Server Compact Edition</caption>
+          <topicref type="topic" id="402097516593294" build="ALL" modified="2010-01-31T20:54:20.364Z" icon="0" href="Tools_for_SQL_Server_Compact_E">
+            <caption translate="true">Tools for SQL Server Compact Edition</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="399919804642876" build="ALL" modified="2009-06-27T22:51:24.718Z" icon="0" href="ASP.NET_Applications">
+        <caption translate="true">ASP.NET Applications</caption>
+      </topicref>
+    </topicref>
+    <topicref type="topic" id="398750028607243" modified="2009-03-02T23:00:47.650Z" icon="0" href="New_topic">
+      <caption translate="true">New topic</caption>
+    </topicref>
+    <topicref type="topic" id="392075559999041" build="ALL" modified="2007-11-23T23:11:04.488Z" icon="0" href="Reference">
+      <caption translate="true">Reference Section</caption>
+      <topicref type="topic" id="392076673000751" build="ALL" modified="2007-05-05T11:11:29.473Z" icon="0" href="Language_reference">
+        <caption translate="true">Language Reference</caption>
+        <topicref type="topic" id="392075844526971" build="ALL" modified="2008-03-19T20:42:57.561Z" icon="0" href="Supported_language_features">
+          <caption translate="true">Supported Features</caption>
+          <topicref type="topic" id="392272073045718" build="ALL" modified="2007-05-25T00:14:27.565Z" icon="0" href="Commands">
+            <caption translate="true">Commands</caption>
+          </topicref>
+          <topicref type="topic" id="392270844693532" build="ALL" modified="2007-07-23T22:55:26.129Z" icon="0" href="Functions">
+            <caption translate="true">Functions</caption>
+          </topicref>
+          <topicref type="topic" id="392268173459200" build="ALL" modified="2007-05-25T00:15:59.037Z" icon="0" href="Operators">
+            <caption translate="true">Operators</caption>
+          </topicref>
+          <topicref type="topic" id="392272230643548" build="ALL" modified="2007-05-25T00:16:20.588Z" icon="0" href="Classes">
+            <caption translate="true">Classes</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="39225503801433" build="ALL" modified="2007-11-02T11:27:40.068Z" icon="0">
+          <caption translate="true">New Features</caption>
+          <topicref type="topic" id="392268342084961" build="ALL" modified="2007-05-25T00:22:15.628Z" icon="0" href="System_capabilities">
+            <caption translate="true">System capacities</caption>
+          </topicref>
+          <topicref type="topic" id="392072945726848" build="ALL" modified="2007-05-25T00:18:17.806Z" icon="0" href="Unicode_support">
+            <caption translate="true">Unicode support</caption>
+          </topicref>
+          <topicref type="topic" id="395269630272767" build="ALL" modified="2008-03-19T20:27:40.794Z" icon="0" href="New_functions">
+            <caption translate="true">New functions</caption>
+          </topicref>
+          <topicref type="topic" id="397586671797600" build="ALL" modified="2008-11-06T17:37:48.798Z" icon="0" href="New_classes">
+            <caption translate="true">New classes</caption>
+          </topicref>
+          <topicref type="topic" id="408853590249816" build="ALL" modified="2011-12-08T11:35:25.961Z" icon="0" href="Extended_functions">
+            <caption translate="true">Extended functions</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="395267887923659" build="ALL" modified="2008-03-19T20:44:40.072Z" icon="0" href="Commands2">
+          <caption translate="true">Commands</caption>
+          <topicref type="topic" id="392270421610701" build="ALL" modified="2009-09-18T00:08:02.741Z" icon="0" href="DO">
+            <caption translate="true">DO Command</caption>
+          </topicref>
+          <topicref type="topic" id="413108587234314" build="ALL" modified="2013-02-05T21:59:44.086Z" icon="0" href="EXIT_command">
+            <caption translate="true">EXIT command</caption>
+          </topicref>
+          <topicref type="topic" id="401540651644903" build="ALL" modified="2009-12-06T21:43:19.066Z" icon="0" href="GATHER_Command">
+            <caption translate="true">GATHER Command</caption>
+          </topicref>
+          <topicref type="topic" id="401536850185231" build="ALL" modified="2009-12-06T21:23:42.281Z" icon="0" href="LOOP_Command">
+            <caption translate="true">LOOP Command</caption>
+          </topicref>
+          <topicref type="topic" id="413100754997996" build="ALL" modified="2013-02-05T06:55:03.215Z" icon="0" href="NODEFAULT_Command">
+            <caption translate="true">NODEFAULT Command</caption>
+          </topicref>
+          <topicref type="topic" id="409035498252698" build="ALL" modified="2011-12-26T08:43:38.532Z" icon="0" href="PARAMETERS_Command">
+            <caption translate="true">PARAMETERS Command</caption>
+          </topicref>
+          <topicref type="topic" id="409026135104788" build="ALL" modified="2011-12-25T17:40:33.757Z" icon="0" href="PRIVATE_Command">
+            <caption translate="true">PRIVATE Command</caption>
+          </topicref>
+          <topicref type="topic" id="401539296164688" build="ALL" modified="2009-12-06T21:35:50.108Z" icon="0" href="SCATTER_Command">
+            <caption translate="true">SCATTER Command</caption>
+          </topicref>
+          <topicref type="topic" id="400740734070982" build="ALL" modified="2009-09-18T00:07:57.583Z" icon="0" href="SET_CLASSLIB">
+            <caption translate="true">SET CLASSLIB Command</caption>
+          </topicref>
+          <topicref type="topic" id="401511166450934" build="ALL" modified="2009-12-04T00:30:11.237Z" icon="0" href="SET_PROCEDURE_Command">
+            <caption translate="true">SET PROCEDURE Command</caption>
+          </topicref>
+          <topicref type="topic" id="39650985121631" build="ALL" modified="2009-09-18T00:08:08.235Z" icon="0" href="SET_SAFETY">
+            <caption translate="true">SET SAFETY Command</caption>
+          </topicref>
+          <topicref type="topic" id="393221007721133" build="ALL" modified="2009-09-18T00:08:12.045Z" icon="0" href="SKIP">
+            <caption translate="true">SKIP Command</caption>
+          </topicref>
+          <topicref type="topic" id="393150671570249" build="ALL" modified="2009-09-18T00:08:14.918Z" icon="0" href="USE">
+            <caption translate="true">USE Command</caption>
+          </topicref>
+          <topicref type="topic" id="396504849448069" build="ALL" modified="2009-09-18T00:08:18.183Z" icon="0" href="ZAP">
+            <caption translate="true">ZAP Command</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="397589364073020" build="ALL" modified="2008-11-06T18:08:39.166Z" icon="0" href="Classes2">
+          <caption translate="true">Objects and Classes</caption>
+          <topicref type="topic" id="401481031830278" build="ALL" modified="2009-11-30T23:43:49.832Z" icon="0" href="Editbox_Control">
+            <caption translate="true">Editbox Control</caption>
+            <topicref type="topic" id="401480993226079" build="ALL" modified="2009-11-30T23:47:20.211Z" icon="0" href="Editbox_Control_Properties__Ev">
+              <caption translate="true">Editbox Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="398411801174604" build="ALL" modified="2009-01-28T08:16:45.646Z" icon="0" href="Form_Control">
+            <caption translate="true">Form Control</caption>
+            <topicref type="topic" id="398414109563865" build="ALL" modified="2009-01-28T08:18:03.882Z" icon="0" href="Form_Control_Properties__Metho">
+              <caption translate="true">Form Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="408927140462783" build="ALL" modified="2011-12-15T22:03:51.676Z" icon="0" href="Header_Control">
+            <caption translate="true">Header Control</caption>
+            <topicref type="topic" id="408930414060007" build="ALL" modified="2011-12-15T22:06:22.965Z" icon="0" href="Header_Control_Properties__Met">
+              <caption translate="true">Header Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="400106125021941" build="ALL" modified="2009-07-16T11:35:09.275Z" icon="0" href="Image_Control">
+            <caption translate="true">Image Control</caption>
+            <topicref type="topic" id="400103904396046" build="ALL" modified="2009-07-16T11:35:34.258Z" icon="0" href="Image_Control_Properties__Meth">
+              <caption translate="true">Image Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="39759342671808" build="ALL" modified="2008-11-06T18:11:40.435Z" icon="0" href="Signature_Control">
+            <caption translate="true">Signature Control</caption>
+            <topicref type="topic" id="397585880311155" build="ALL" modified="2008-11-06T19:02:59.226Z" icon="0" href="Signature_Control_Properties__">
+              <caption translate="true">Signature Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+          <topicref type="topic" id="401509756052685" build="ALL" modified="2009-12-04T00:46:10.072Z" icon="0" href="Timer_Control">
+            <caption translate="true">Timer Control</caption>
+            <topicref type="topic" id="401510505449285" build="ALL" modified="2009-12-04T00:48:04.168Z" icon="0" href="Timer_Control_Properties__Meth">
+              <caption translate="true">Timer Control Properties, Methods, and Events</caption>
+            </topicref>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="395269790110185" build="ALL" modified="2008-03-19T20:32:08.530Z" icon="0" href="Properties">
+          <caption translate="true">Properties</caption>
+          <topicref type="topic" id="397596730969615" build="ALL" modified="2009-12-01T00:20:10.426Z" icon="0" href="BorderColor_property">
+            <caption translate="true">BorderColor Property</caption>
+          </topicref>
+          <topicref type="topic" id="397595710519138" build="ALL" modified="2009-12-01T00:20:15.606Z" icon="0" href="BorderStyle_property">
+            <caption translate="true">BorderStyle Property</caption>
+          </topicref>
+          <topicref type="topic" id="413109921719509" build="ALL" modified="2013-02-05T21:44:01.747Z" icon="0" href="ControlBox_Property">
+            <caption translate="true">ControlBox Property</caption>
+          </topicref>
+          <topicref type="topic" id="401531305821637" build="ALL" modified="2009-12-06T07:49:38.437Z" icon="0" href="Enabled_Property">
+            <caption translate="true">Enabled Property</caption>
+          </topicref>
+          <topicref type="topic" id="395269919129704" build="ALL" modified="2008-03-19T20:32:50.955Z" icon="0" href="Height_property">
+            <caption translate="true">Height Property</caption>
+          </topicref>
+          <topicref type="topic" id="401511965071291" build="ALL" modified="2009-12-04T00:56:55.865Z" icon="0" href="Interval_Property">
+            <caption translate="true">Interval Property</caption>
+          </topicref>
+          <topicref type="topic" id="397591931022202" build="ALL" modified="2009-12-01T00:20:18.451Z" icon="0" href="PenWidth_property">
+            <caption translate="true">PenWidth Property</caption>
+          </topicref>
+          <topicref type="topic" id="400103847421164" build="ALL" modified="2009-07-16T11:30:33.170Z" icon="0" href="Picture_Property">
+            <caption translate="true">Picture Property</caption>
+          </topicref>
+          <topicref type="topic" id="398414937618464" build="ALL" modified="2009-01-28T08:01:25.123Z" icon="0" href="ScrollBars_Property">
+            <caption translate="true">ScrollBars Property</caption>
+          </topicref>
+          <topicref type="topic" id="40146084157092" build="ALL" modified="2009-12-01T00:13:11.957Z" icon="0" href="SelLength_Property">
+            <caption translate="true">SelLength Property</caption>
+          </topicref>
+          <topicref type="topic" id="401481911148029" build="ALL" modified="2009-11-30T23:39:43.822Z" icon="0" href="SelStart_Property">
+            <caption translate="true">SelStart Property</caption>
+          </topicref>
+          <topicref type="topic" id="397591983169474" build="ALL" modified="2009-12-01T00:20:25.618Z" icon="0" href="Signature_property">
+            <caption translate="true">Signature Property</caption>
+          </topicref>
+          <topicref type="topic" id="397631972628049" build="ALL" modified="2009-12-01T00:20:23.100Z" icon="0" href="TabIndex_property">
+            <caption translate="true">TabIndex Property</caption>
+          </topicref>
+          <topicref type="topic" id="397587569590864" build="ALL" modified="2008-11-06T19:03:24.820Z" icon="0" href="Value_Property">
+            <caption translate="true">Value Property</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="39841101780642" build="ALL" modified="2009-12-06T07:31:19.439Z" icon="0">
+          <caption translate="true">Events</caption>
+          <topicref type="topic" id="398417946917463" build="ALL" modified="2009-12-06T07:31:45.915Z" icon="0" href="Init_event">
+            <caption translate="true">Init Event</caption>
+          </topicref>
+          <topicref type="topic" id="413109277998041" build="ALL" modified="2013-02-05T22:10:36.618Z" icon="0" href="KeyPress_event">
+            <caption translate="true">KeyPress event</caption>
+          </topicref>
+          <topicref type="topic" id="401534757770433" build="ALL" modified="2009-12-06T07:31:40.586Z" icon="0" href="Timer_Event">
+            <caption translate="true">Timer Event</caption>
+          </topicref>
+        </topicref>
+        <topicref type="topic" id="392098527785003" build="ALL" modified="2007-07-23T22:52:33.130Z" icon="0" href="Functions2">
+          <caption translate="true">Functions</caption>
+          <topicref type="topic" id="392201048866435" build="ALL" modified="2008-03-19T20:25:30.032Z" icon="0" href="ADDBS">
+            <caption translate="true">ADDBS()</caption>
+          </topicref>
+          <topicref type="topic" id="393460504320263" build="ALL" modified="2008-03-19T20:25:47.943Z" icon="0" href="ADIR">
+            <caption translate="true">ADIR()</caption>
+          </topicref>
+          <topicref type="topic" id="39290074482245" build="ALL" modified="2008-03-19T20:25:33.459Z" icon="0" href="APRINTERS">
+            <caption translate="true">APRINTERS()</caption>
+          </topicref>
+          <topicref type="topic" id="410528871973228" build="ALL" modified="2012-05-23T19:08:24.470Z" icon="0" href="CTOT">
+            <caption translate="true">CTOT()</caption>
+          </topicref>
+          <topicref type="topic" id="392174836202603" build="ALL" modified="2008-03-19T20:30:08.057Z" icon="0" href="CURDIR">
+            <caption translate="true">CURDIR()</caption>
+          </topicref>
+          <topicref type="topic" id="392174132356230" build="ALL" modified="2008-03-19T20:30:11.024Z" icon="0" href="FULLPATH">
+            <caption translate="true">FULLPATH()</caption>
+          </topicref>
+          <topicref type="topic" id="393469470074073" build="ALL" modified="2008-03-19T20:30:14.740Z" icon="0" href="GETENV">
+            <caption translate="true">GETENV()</caption>
+          </topicref>
+          <topicref type="topic" id="408914485852809" build="ALL" modified="2011-12-14T12:19:20.873Z" icon="0" href="OS">
+            <caption translate="true">OS()</caption>
+          </topicref>
+          <topicref type="topic" id="409033479605712" build="ALL" modified="2011-12-26T09:17:08.776Z" icon="0" href="PARAMETERS">
+            <caption translate="true">PARAMETERS()</caption>
+          </topicref>
+          <topicref type="topic" id="408854061503768" build="ALL" modified="2011-12-08T11:36:44.469Z" icon="0" href="STRCONV">
+            <caption translate="true">STRCONV()</caption>
+          </topicref>
+          <topicref type="topic" id="396506066849165" build="ALL" modified="2008-07-21T15:18:27.613Z" icon="0" href="STRTOFILE">
+            <caption translate="true">STRTOFILE()</caption>
+          </topicref>
+          <topicref type="topic" id="400049980346971" build="ALL" modified="2009-07-10T22:37:02.700Z" icon="0" href="SYS1079">
+            <caption translate="true">SYS(1079) - Diagnostic crash</caption>
+          </topicref>
+          <topicref type="topic" id="392100482255619" build="ALL" modified="2008-11-06T18:09:50.410Z" icon="0" href="SYS8000_-_Unicode_support">
+            <caption translate="true">SYS(8000) - Unicode support</caption>
+          </topicref>
+          <topicref type="topic" id="392174802833546" build="ALL" modified="2007-05-15T09:14:42.642Z" icon="0" href="SYS8001_-_Path_handling">
+            <caption translate="true">SYS(8001) - Path handling</caption>
+          </topicref>
+          <topicref type="topic" id="392270265884753" build="ALL" modified="2007-05-25T00:53:41.630Z" icon="0" href="SYS8002_-_Ignore_unknown_token">
+            <caption translate="true">SYS(8002) - Ignore unknown tokens</caption>
+          </topicref>
+          <topicref type="topic" id="392341178733446" build="ALL" modified="2007-05-31T22:44:02.584Z" icon="0" href="SYS8003_-_.NET_Debugger_suppor">
+            <caption translate="true">SYS(8003) - .NET Debugger support</caption>
+          </topicref>
+          <topicref type="topic" id="392378028594446" build="ALL" modified="2007-06-04T18:06:19.738Z" icon="0" href="SYS8004_-_Switch_SPT_engine">
+            <caption translate="true">SYS(8004) - Switch SPT engine</caption>
+          </topicref>
+          <topicref type="topic" id="395138499421689" build="ALL" modified="2008-03-06T16:02:26.397Z" icon="0" href="SYS8005_-_Microsoft_SQL_Server">
+            <caption translate="true">SYS(8005) - Microsoft SQL Server Compact Edition support</caption>
+          </topicref>
+          <topicref type="topic" id="396165643599002" build="ALL" modified="2008-06-17T16:58:13.720Z" icon="0" href="SYS8006_-_High_resolution_supp">
+            <caption translate="true">SYS(8006) - High resolution support</caption>
+          </topicref>
+          <topicref type="topic" id="397587265943268" build="ALL" modified="2008-11-06T17:40:01.368Z" icon="0" href="SYS8007_-_Make_a_phone_call">
+            <caption translate="true">SYS(8007) - Make a phone call</caption>
+          </topicref>
+          <topicref type="topic" id="397591108892947" build="ALL" modified="2008-11-06T22:37:55.428Z" icon="0" href="SYS8008_-_Register_base_classe">
+            <caption translate="true">SYS(8008) - Register base classes</caption>
+          </topicref>
+          <topicref type="topic" id="398350364772454" build="ALL" modified="2009-01-21T22:24:38.731Z" icon="0" href="SYS8009_-_HTTP_data_transfer">
+            <caption translate="true">SYS(8009) - HTTP data transfer</caption>
+          </topicref>
+          <topicref type="topic" id="400182229906988" build="ALL" modified="2009-07-24T10:26:20.747Z" icon="0" href="SYS8010_-_FTP_data_transfer">
+            <caption translate="true">SYS(8010) - FTP data transfer</caption>
+          </topicref>
+          <topicref type="topic" id="399645082539306" build="ALL" modified="2009-05-31T16:23:19.500Z" icon="0" href="SYS8011_-_Support_options">
+            <caption translate="true">SYS(8011) - Support options</caption>
+          </topicref>
+          <topicref type="topic" id="400193616000357" build="ALL" modified="2009-07-25T11:33:39.785Z" icon="0" href="SYS8012_-_Software_based_Input_Panel">
+            <caption translate="true">SYS(8012) - Software-based Input Panel</caption>
+          </topicref>
+          <topicref type="topic" id="400048850644429" build="ALL" modified="2009-07-10T22:10:15.866Z" icon="0" href="SYS8013_-_Change_system_time">
+            <caption translate="true">SYS(8013) - Change system time</caption>
+          </topicref>
+          <topicref type="topic" id="401540786495549" build="ALL" modified="2009-12-06T21:04:05.593Z" icon="0" href="SYS8014_-_Configure_control_be">
+            <caption translate="true">SYS(8014) - Configure control behavior</caption>
+          </topicref>
+          <topicref type="topic" id="401533159052905" build="ALL" modified="2009-12-06T09:38:34.542Z" icon="0" href="SYS8015_-_Send_Emails_via_SMTP">
+            <caption translate="true">SYS(8015) - Send Emails via SMTP</caption>
+          </topicref>
+          <topicref type="topic" id="396162919662102" build="ALL" modified="2009-11-09T00:33:04.624Z" icon="0" href="SYSMETRIC">
+            <caption translate="true">SYSMETRIC()</caption>
+          </topicref>
+          <topicref type="topic" id="400047390420798" build="ALL" modified="2009-07-10T22:15:15.387Z" icon="0" href="TIME">
+            <caption translate="true">TIME()</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="392076741269090" build="ALL" modified="2007-05-05T11:11:26.619Z" icon="0" href=".NET_reference">
+        <caption translate="true">.NET Reference</caption>
+        <topicref type="topic" id="392341282294373" build="ALL" modified="2007-05-31T23:27:18.918Z" icon="0" href="Using_Guineu_from_.NET">
+          <caption translate="true">Using Guineu from .NET</caption>
+          <topicref type="topic" id="392339422689819" build="ALL" modified="2007-05-31T23:37:01.996Z" icon="0" href="Using_the_.NET_Debugger">
+            <caption translate="true">Debugging FoxPro code from .NET</caption>
+          </topicref>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="392075764138073" build="ALL" modified="2007-05-05T11:11:23.465Z" icon="0">
+        <caption translate="true">Tools Reference</caption>
+        <topicref type="topic" id="392076211718202" build="ALL" modified="2007-05-05T18:25:31.303Z" icon="0" href="Guineu.exe">
+          <caption translate="true">Guineu.exe</caption>
+        </topicref>
+        <topicref type="topic" id="392110516451317" build="ALL" modified="2007-05-09T00:00:20.296Z" icon="0" href="Guineu.exe_2">
+          <caption translate="true">Guineu.compact.exe</caption>
+        </topicref>
+      </topicref>
+      <topicref type="topic" id="392109481611342" build="ALL" modified="2007-05-09T00:42:01.763Z" icon="0" href="Samples">
+        <caption translate="true">Samples</caption>
+        <topicref type="topic" id="392111910803923" build="ALL" modified="2007-05-09T00:42:22.132Z" icon="0" href="Inventory">
+          <caption translate="true">Inventory</caption>
+        </topicref>
+        <topicref type="topic" id="392111292179431" build="ALL" modified="2007-05-09T00:48:28.900Z" icon="0" href="Speed1">
+          <caption translate="true">Speed1</caption>
+        </topicref>
+        <topicref type="topic" id="392110692084327" build="ALL" modified="2007-05-09T00:52:16.988Z" icon="0" href="Unicode">
+          <caption translate="true">Unicode</caption>
+        </topicref>
+        <topicref type="topic" id="392125937272372" build="ALL" modified="2007-05-24T23:55:02.169Z" icon="0" href="WinForm">
+          <caption translate="true">WinForm</caption>
+        </topicref>
+        <topicref type="topic" id="392141457944634" build="ALL" modified="2007-05-12T02:05:38.708Z" icon="0" href="SQL1">
+          <caption translate="true">SQL1</caption>
+        </topicref>
+        <topicref type="topic" id="397598597982651" build="ALL" modified="2008-11-08T00:11:55.523Z" icon="0" href="Signature_sample">
+          <caption translate="true">Signature sample</caption>
+        </topicref>
+      </topicref>
+    </topicref>
+  </topicref>
+</map>

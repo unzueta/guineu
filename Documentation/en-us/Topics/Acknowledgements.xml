@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Acknowledgements</title>
+  <keywords>
+    <keyword translate="true">explanation</keyword>
+    <keyword translate="true">podcast</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Acknowledgements</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Thank you!</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu wouldn&apos;t have been possible without the help and support of numerous people. Special thanks go to:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">My wife Christina Wollenhaupt who didn&apos;t believe me when I explained that this project will make me famous and incredible rich, but supported me nevertheless and was correct in the end.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Visual FoxPro® MVP Frédéric Steczycki who volunteered to implement some of Guineu&apos;s features in C#.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Peter Steinke who also implemented some functions in C#.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Jürgen Wondzinski and Bob Pierce for giving presentations on Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Thomas Kahl for registering the domain.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Andrew MacNeill who did a </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://akselsoft.libsyn.com/index.php?post_id=345589" target="_blank" styleclass="Normal" translate="true">podcast</link><text styleclass="Normal" translate="true"> on Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Everyone who reported a bug: Bernard Bout, Russell Campbell, Jonathan Clark, Christoph Dreßler</text><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">, Garrett Fitzgerald, Thomas Francl, </text><text styleclass="Normal" translate="true">Bernhard Herlemann, Peter Herzog, Thomas Kammerer, Nicola Marangon, Joan Mir, James Monte, Robert Pierce</text><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">, Gaetano Quatrocchi, Carlos Serna, </text><text styleclass="Normal" translate="true">Александр Третьяков. And to everyone who helped with Guineu by spreading the word (especially Peter Kuster), supporting me in development, or making suggestions.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Frank Camp for his research on the SYS(2015) format.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The guys from </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.opennetcf.com/" target="_blank" styleclass="Normal" translate="true">OpenNETCF Consulting</link><text styleclass="Normal" translate="true"> for their free Smart Device Framework.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Erik Bachmann and David Kuechler for </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.clicketyclick.dk/databases/xbase" target="_blank" styleclass="Normal" translate="true">their documentation</link><text styleclass="Normal" translate="true"> on FoxPro file formats. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">John Opincar for his </text><link displaytype="text" defaultstyle="true" type="weblink" href="http://jopinblog.wordpress.com/2007/04/30/implementing-itypedlist-for-virtual-properties/" target="_blank" styleclass="Normal" translate="true">explanation</link><text styleclass="Normal" translate="true"> on using ITypedList.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Trademarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Microsoft, Visual FoxPro, SQL Server and Windows are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Unicode and the Unicode logo are trademarks of Unicode, Inc.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The Smart Device Framework is Copyright © 2005-2008 OpenNETCF Consulting, LLC.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">All other trademarks, registered trademarks and copyrights used in this help file are the property of their respective owners. </text></para>
+  </body>
+</topic>

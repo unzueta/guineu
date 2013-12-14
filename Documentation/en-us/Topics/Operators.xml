@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Operators</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Operators</text></para>
+    </header>
+    <para styleclass="Normal"><table rowcount="19" colcount="2" style="cell-padding:0px; cell-spacing:0px; border-width:0px; cell-border-width:0px;">
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">+</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for numeric and character values.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">-</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for numeric values.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">$</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">( )</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">NOT, !</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">AND</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">OR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">&lt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Only the &quot;MACHINE&quot; collate sequence is supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">&gt;</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Only the &quot;MACHINE&quot; collate sequence is supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">=</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Character values are compared with the &quot;MACHINE&quot; collate sequence and SET EXACT ON.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">==</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">&lt;&gt;, #, !=</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Character values are compared with the &quot;MACHINE&quot; collate sequence and SET EXACT ON.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">&lt;=</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Character values are compared with the &quot;MACHINE&quot; collate sequence.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">&gt;=</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Character values are compared with the &quot;MACHINE&quot; collate sequence.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">**, ^</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">*</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">/</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">%</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">.NULL.</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

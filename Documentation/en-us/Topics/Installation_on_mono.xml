@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="ChrisAdmin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Developing on MONO</title>
+  <keywords>
+    <keyword translate="true">Installation on MONO</keyword>
+    <keyword translate="true">MONO</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Developing on MONO</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Installation</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Please install MONO according to their documentation. You can download the current version of MONO from: </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.mono-project.com/Downloads.</link><text styleclass="Normal" translate="true"> To test MONO on a Windows machine, you can use their free VMWare Player image that is available on the download page, as well.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">After installing MONO, copy Guineu.exe and Guineu.runtime.dll onto the target machine. Make sure these files are either in the search path or in the same folder as your FXP files. To run your application type</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">mono Guineu.exe yourPrg.FXP</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">in any shell window. Make sure you use the correct case for all file names.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Licensing issues</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Microsoft imposes a strict EULA on distributing code to non-Windows platforms. Therefore you are not allowed to run the Setup program on a non-Windows machine using tools like Wine. You may copy only the following files to a non-Windows platform:</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Guineu.exe</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Guineu.runtime.dll</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You are responsible for keeping compliant with the Microsoft Visual FoxPro® EULA. In doubt, please contact a lawyer. Keep in mind that the Visual FoxPro® EULA doesn&apos;t allow you to distribute any other file except for own files to a non-Windows platform. This includes all images as well as all sample code, the FoxPro Foundation Classes, the Northwind Database and any other file in the installation folder. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">For a collection of free application images check out: </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://commons.wikimedia.org/wiki/Crystal_Clear</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Limitations</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Non-Windows platforms are not the primary target for Guineu. Not all features of Guineu are available on MONO. Limitations and differences are documented. To get a list of all affected commands, search the entire help file for &quot;MONO&quot;.</text></para>
+  </body>
+</topic>

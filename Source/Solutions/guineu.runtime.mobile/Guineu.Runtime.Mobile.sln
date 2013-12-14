@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Runtime.Mobile", "..\..\Guineu.Runtime.Mobile\Guineu.Runtime.Mobile.csproj", "{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Mobile", "..\..\Guineu.Mobile\Guineu.Mobile.csproj", "{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Mobile.UnitTests", "..\..\guineu.mobile.unittests\Guineu.Mobile.UnitTests.csproj", "{179442CD-D1B2-4861-B075-5580A0915757}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B6EC767-51DC-4129-ABBF-2B6A4FEC515D}"
+	ProjectSection(SolutionItems) = preProject
+		Guineu.Runtime.Mobile1.vsmdi = Guineu.Runtime.Mobile1.vsmdi
+		SmartDeviceTestRun.testrunConfig = SmartDeviceTestRun.testrunConfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Guineu.Runtime.Mobile1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug PDA|Any CPU = Debug PDA|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Debug PDA|Any CPU.ActiveCfg = Debug PDA|Any CPU
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Debug PDA|Any CPU.Build.0 = Debug PDA|Any CPU
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3E9DB6-5E8C-4662-BF01-EC6293270B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Debug PDA|Any CPU.ActiveCfg = Debug PDA|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Debug PDA|Any CPU.Build.0 = Debug PDA|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AE8C3E-6548-4F6F-B6BE-97590B86819D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Debug PDA|Any CPU.ActiveCfg = Debug|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Debug PDA|Any CPU.Build.0 = Debug|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179442CD-D1B2-4861-B075-5580A0915757}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Interval Property</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Interval Property</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies milliseconds between two Timer events.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Control.Interval = nTime</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nTime</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Number of milliseconds between two Timer events. The default value is 0 which disables timer events completely. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Timer_Control" styleclass="Normal" translate="true">Timer Control</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Timer do not fire at precise intervals. The length of the period between two timer events is not guaranteed to be Interval. Timer events, however, do not fire more frequently than specified in Interval.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">On Windows Mobile devices, v</text><text styleclass="Explanation" translate="true">alues of less than 15 ms are not reliable, as the default resolution is just 10 ms.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Timer_Event" styleclass="Normal" translate="true">Timer Event</link></para>
+  </body>
+</topic>

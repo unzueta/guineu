@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">GATHER Command</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">GATHER Command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Writes data from memory variables or an object into the current record.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">GATHER [MEMO] [NAME oRec | MEMVAR]</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">MEMO</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Includes all memo and blob fields when writing the record. GATHER skips memo fields by default. Including memo and blob fields can potentially result in a long during operation especially when performed across a wireless network or a dial-up VPN connection. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">When memo and blob fields are written back, their content is always appended to the memo file, even when their content doesn&apos;t differ. The MEMO clause does therefore contribute to memo bloat.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">NAME oRec</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Writes properties of an object into fields of the same name into the current record. Properties that do not have a corresponding field are skipped without notice. Fields that do not have a corresponding property are not changed.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">MEMVAR</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Locates variables with the same name as the fields in the current record of the active work area. If a variable exists, the value of the variable replaces the content of the field. If the variable does not exist, no error is raised.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SCATTER_Command" styleclass="Normal" translate="true">SCATTER Command</link></para>
+  </body>
+</topic>

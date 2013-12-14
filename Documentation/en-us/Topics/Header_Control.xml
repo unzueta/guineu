@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Header Control</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Header Control</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Creates a column header in a grid.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile: </text><text styleclass="Normal" translate="true">All headers must have the same fore color and back color. The header in last column defines the visual appearance of all header objects.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Header_Control_Properties__Met" styleclass="Normal" translate="true">Header Control Properties, Methods, and Events</link></para>
+  </body>
+</topic>

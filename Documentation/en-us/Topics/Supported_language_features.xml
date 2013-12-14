@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Supported Features</title>
+  <keywords>
+    <keyword translate="true">Commands</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Supported Features</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Language elements that differ from Microsoft Visual FoxPro® in any way have a separate help entry explaining all the differences. Click on the element to go to this page.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The following sections list which language elements of Visual FoxPro® are implemented. Unless specified otherwise a feature is always completely implemented. Exceptions and differences to Visual FoxPro® are listed.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt;">
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Commands" styleclass="Normal" translate="true">Commands</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Functions" styleclass="Normal" translate="true">Functions</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Operators" styleclass="Normal" translate="true">Operators</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Classes" styleclass="Normal" translate="true">Classes</link></li>
+    </list>
+  </body>
+</topic>

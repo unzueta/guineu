@@ -1,0 +1,54 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8000) - Unicode support</title>
+  <keywords>
+    <keyword translate="true">SYS(8000)</keyword>
+    <keyword translate="true">Unicode support</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8000) - Unicode support</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Enables or disables Unicode support in Guineu.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8000 [,0 | 1] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">0</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Disables Unicode mode. This is the default value at startup.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">1</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Enables Unicode mode.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string that indicates the current state. If you don&apos;t pass a second parameter, Guineu returns the state without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When Unicode mode is enabled, all functions that deal with strings support Unicode. Internally, Guineu uses Unicode exclusively and performs conversion to ANSI as needed. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Unicode mode impacts the creation of strings. It doesn&apos;t have impact on existing strings. That means when you create a string with Unicode mode enabled, this string remains a Unicode string even after you disabled Unicode mode. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The following functions behave differently when Unicode mode is enabled:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table rowcount="2" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:224px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">FILETOSTR</text></para>
+        </td>
+        <td style="width:625px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">The first three bytes of a file decide if a file is treated as Unicode, UTF-8 or ANSI. A conversion is performed as needed.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">To read a binary file you must disable Unicode support before. Otherwise the file might be converted if it happens to start with a byte order mark or a UTF-8 preamble.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:224px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">STRTOFILE</text></para>
+        </td>
+        <td style="width:625px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">The string is always stored in UTF-8 format. However, no UTF-8 preamble is written to the file.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRTOFILE" styleclass="Normal" translate="true">STRTOFILE()</link></para>
+  </body>
+</topic>

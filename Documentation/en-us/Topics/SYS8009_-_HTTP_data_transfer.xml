@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8009) - HTTP data transfer</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8009) - HTTP data transfer</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Exchanges data with a web server over HTTP.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8009, cMethod, cUrl [, cData])</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cMethod</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the HTTP 1.1 command that is sent to the web server. Valid values are:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="3" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#cc99ff; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:147px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Method</text></para>
+        </td>
+        <td style="width:547px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">GET</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns the content for the specified Url. The Url can be a static web page, any binary file or any dynamic web handler. This includes ASP.NET, PHP, Web services, etc.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">POST</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Sends the content of cData to the web server and returns the response. The web server expects cData to be encoded as </text><text styleclass="Courier Fixed" translate="true">application/x-www-form-urlencoded</text><text styleclass="Normal" translate="true">. The </text><text styleclass="Courier Fixed" translate="true">STRCONV()</text><text styleclass="Normal" translate="true"> function can be used to encode strings accordingly.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">If the backend module has access to the raw request data, you can ignore the content type. Otherwise you need to encode your request accordingly.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Other less frequently uses commands are HEAD, PUT, DELETE, TRACE, and OPTIONS.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cUrl</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Any valid web address in the form</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Explanation" translate="true">http://server/resource?parameters</link></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The Url can point to any server that is reachable from the computer or device. Mobile devices with internet connections, such as cell phones, can send and receive data across the internet. As the transfer uses the HTTP protocol, the content is not encrypted. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cData</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Contains additional data that is sent with the request.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Some HTTP methods send additional information with the requests. The most common one is POST. When using such a method you must specify the cData parameter. Otherwise, your application might stop responding. For HTTP methods that do not expect additional data, such as GET, this parameter should be omitted.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string with the content of the specified web resource. The return value is NULL if any error occurred while processing the request.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Example</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Local lcWeb</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">lcWeb = Sys(8009,&quot;GET&quot;,&quot;http://guineu.foxpert.com&quot;)</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">MessageBox( Left(m.lcWeb,500) )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You are not limited to transfer text data. For instance, you can have a web page that calls a Visual FoxPro COM server. The COM server could execute a query into a temporary DBF and then return the DBF file. In the same way you can transfer a DBF file to the server where server side scripts can process the content. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">If you want to pass on state information to a VFP application running on the web server, you can use SAVE MEMORY to save all current variables. On the backend you can use RESTORE MEMORY to load the variable set into memory. This is especially useful when the remote script executes a query and query parameters have been stored in local variables.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Please note that your service provider might charge you for any internet traffic originating from your cell phone or mobile device. The ability to transfer data over the internet depends on your device, the connection and your service plan.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8010_-_FTP_data_transfer" styleclass="Normal" translate="true">SYS(8010) - FTP data transfer</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRCONV" styleclass="Normal" translate="true">STRCONV()</link></para>
+  </body>
+</topic>

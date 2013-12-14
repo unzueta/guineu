@@ -1,0 +1,35 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8007) - Make a phone call</title>
+  <keywords>
+    <keyword translate="true">phone call</keyword>
+    <keyword translate="true">SYS(8007)</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8007) - Make a phone call</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Initiates a phone call on mobile devices with phone support.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8007, cNumber )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cNumber</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the phone number to dial. The number must be in a format that the phone understands and should only consist of digits. International numbers can start with a &quot;+&quot; sign followed by digits only. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string indicating whether the call has been successfully initiated. The return value is &quot;1&quot; on successful calls and &quot;0&quot; when there was some problem. There&apos;s no additional information available about what the problem was.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When a call is initiated while another call is in progress, the first call is put on hold until the second call finishes.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">During dialing the phone might display a progress dialog and additional error messages. These dialogs are not customizable.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When testing your application on an actual phone be aware that placing a phone call actually costs money. The actual amount depends on the number dialled and your calling plan. To test applications with phone functionality it&apos;s recommended to use the device emulator for the initial development.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SYS(8007) is only available with the Microsoft Compact Framework. The function is ignored on any platform other than Windows Mobile. If the device does not have phone support, SYS(8007) raises a </text><text styleclass="Normal" style="font-style:italic;" translate="true">feature not available </text><text styleclass="Normal" translate="true">error message or returns an error status.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Runtime libraries</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The following DLLs must be available in either the application directory, the system directory or the global assembly cache in order to call this function:</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">OpenNetCF.Phone.DLL</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Phone.DLL</text></li>
+    </list>
+  </body>
+</topic>

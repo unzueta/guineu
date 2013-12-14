@@ -1,0 +1,42 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8001) - Path handling</title>
+  <keywords>
+    <keyword translate="true">SYS(8001)</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8001) - Path handling</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies how paths are handled. You can adjust this setting to achieve compatibility with your platform.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8000 [,nFlags] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nFlags</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies how paths are handled. The default value matches the behavior of Microsoft Visual FoxPro</text><text styleclass="Normal" translate="true">®</text><text styleclass="Explanation" translate="true"> 9.0. The following table lists the additive flags for nFlags.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="2" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; font-style:italic;" translate="true">nFlag</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; font-style:italic;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; font-style:normal;" translate="true">1</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">(default) Path names are converted to upper case. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Mono:</text><text styleclass="Normal" translate="true"> If your operating system is case-sensitive, you need to clear this flag in your application. Otherwise you cannot use the return value of many functions to access the file system.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string that indicates the current configuration. If you don&apos;t pass a second parameter, Guineu returns the configuration without changing it.</text></para>
+    <para styleclass="Inline heading"></para>
+  </body>
+</topic>

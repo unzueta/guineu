@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Windows Mobile Application</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Windows Mobile Application</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu applications run on </text><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">Windows Mobile Software for Pocket PC 2003, Windows Mobile 5.0 for PocketPC, Windows CE .NET 5.0 and higher.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Installation_on_PDAs" style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">Installation on PDAs</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Whats_different_on_Windows_Mob" style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">What&apos;s different in Windows Mobile</link></para>
+  </body>
+</topic>

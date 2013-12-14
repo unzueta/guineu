@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SET CLASSLIB Command</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SET CLASSLIB Command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Loads a Visual Class Library (.VCX) and makes its classes available to CREATEOBJECT().</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SET CLASSLIB TO ClassLibrary [ADDITIVE | ,ClassLibrary...]</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">ClassLibrary</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the name of the class library. Guineu searches class libraries in the EXE or APP before looking for external files. When you don&apos;t specify a full path to the visual class library, Guineu will search the current SET PATH list.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">ADDITIVE</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">When the ADDITIVE clause is used you can only specify a single class library. If the class library hasn&apos;t yet been loaded, the ADDITIVE clause will add the library to the list. Without this clause, the new list of libraries completely overwrites the existing list.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu doesn&apos;t use .VCX libraries directly. Rather, GuineuIDE converts a library.VCX file into a library.VCX.PRG file. SET CLASSLIB searches for the compiled PRG file instead of the VCX file. This is relevant if you want to use external .VCX files. Please note that this behavior will change in the future.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SET_PROCEDURE_Command" styleclass="Normal" translate="true">SET PROCEDURE Command</link></para>
+  </body>
+</topic>

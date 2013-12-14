@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Guineu.MemberList" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABABAAAAgQAAAAAAAAAAIACAAABEAABA=</HashCode>
+      <FileName>Variables.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Guineu.Member" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Variables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guineu.MethodMember" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgQgAAAAAIAAAEAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>Variables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guineu.ValueMember" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAEAAAAAAAIABACAAAQAAAAAAABA=</HashCode>
+      <FileName>Variables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

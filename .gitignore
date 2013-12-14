@@ -1,0 +1,12 @@
+/Documentation/en-us/guineu.chm
+*.FXP
+*.user
+bin
+obj
+*.bak
+/Source/GuineuIDE/*.VCT
+/Source/GuineuIDE/*.vcx
+_ReSharper.*
+*.suo
+/Source/GuineuIDE/GuineuIDE.PJT
+/Source/GuineuIDE/GuineuIDE.pjx

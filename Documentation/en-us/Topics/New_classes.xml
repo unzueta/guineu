@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">New classes</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">New classes</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu supports additional base classes. These base classes are disabled by default. Uses SYS(8008) to enable a base class before using it. Some classes are only available for some platforms as they provide platform specific features:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_Control" styleclass="Normal" translate="true">Signature Control</link></para>
+  </body>
+</topic>

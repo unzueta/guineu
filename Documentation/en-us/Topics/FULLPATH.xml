@@ -1,0 +1,17 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">FULLPATH()</title>
+  <keywords>
+    <keyword translate="true">FULLPATH()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">FULLPATH()</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">By default the path is returned in all upper case. On platforms that support case-sensitive names you need to disable this conversion with SYS(8001):</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS(8001, 0)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8001_-_Path_handling" styleclass="Normal" translate="true">SYS(8001) - Path handling</link></para>
+  </body>
+</topic>

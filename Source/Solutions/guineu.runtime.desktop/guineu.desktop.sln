@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Desktop", "..\..\Guineu.Desktop\Guineu.Desktop.csproj", "{6060CD54-4F95-404D-BD35-A49C11B85770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Runtime.Desktop", "..\..\Guineu.Runtime.Desktop\Guineu.Runtime.Desktop.csproj", "{07D04D39-55DD-4DB1-800F-E066713C9A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{68286F05-50B0-46ED-B331-0D32F07656AF}"
+	ProjectSection(SolutionItems) = preProject
+		guineu.desktop.vsmdi = guineu.desktop.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guineu.Desktop.UnitTests", "..\..\Guineu.Desktop.UnitTests\Guineu.Desktop.UnitTests.csproj", "{ED375ADD-F976-42EE-80AB-7CC1ED792214}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = guineu.desktop.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug PDA|Any CPU = Debug PDA|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Debug PDA|Any CPU.ActiveCfg = Debug PDA|Any CPU
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Debug PDA|Any CPU.Build.0 = Debug PDA|Any CPU
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6060CD54-4F95-404D-BD35-A49C11B85770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Debug PDA|Any CPU.ActiveCfg = Debug PDA|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Debug PDA|Any CPU.Build.0 = Debug PDA|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D04D39-55DD-4DB1-800F-E066713C9A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Debug PDA|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Debug PDA|Any CPU.Build.0 = Debug|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED375ADD-F976-42EE-80AB-7CC1ED792214}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+This samples requires the Northwind database in the Northwind subfolder

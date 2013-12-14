@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8012) - Software-based Input Panel</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8012) - Software-based Input Panel</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides control over the Software-based Input Panel.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8012, cOperation [, cData]])</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cOperation</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the operation to be performed. Valid values are:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="6" colcount="3" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#cc99ff; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:147px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Operation</text></para>
+        </td>
+        <td colspan="2" style="width:546px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">ON</text></para>
+        </td>
+        <td style="width:315px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Turns the Software-based Input Panel on. The SIP covers the lower part of your form. Controls at this location are not visible to the user.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">The exact area that is invisible depends on the currently selected SIP</text></para>
+        </td>
+        <td style="vertical-align:middle; width:231px;">
+          <para styleclass="Normal" style="text-align:right;"><image src="sys8012_sip.png" scale="78.28%" width="234" height="364" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">OFF</text></para>
+        </td>
+        <td colspan="2" style="width:546px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Turns the Software-based Input Panel off. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Status</text></para>
+        </td>
+        <td colspan="2" style="width:546px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string containing &quot;ON&quot; when the Software-based Input Panel is currently visible. The return value is &quot;OFF&quot; when the SIP is not visible at the moment. It doesn&apos;t matter whether the SIP has been activated programmatically, or manually by the user.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Current</text></para>
+        </td>
+        <td colspan="2" style="width:546px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Gets or sets the currently selected input method. Refer to the Remarks section for a detailed description.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Available</text></para>
+        </td>
+        <td colspan="2" style="width:546px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a comma separated list of all available input methods. </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cData</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Some operation require additional information that is passed as the third parameter.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string. The meaning of the return value depends on the operation.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Example</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Sys(8012,&quot;Current&quot;,&quot;Block Recognizer&quot;)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows Mobile and Windows CE support various input methods with the Software-based Input Panel. The following table lists those that ship most commonly with Mobile devices.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table rowcount="5" colcount="3" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#cc99ff; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:147px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Input method</text></para>
+        </td>
+        <td colspan="2" style="width:546px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Keyboard</text></para>
+        </td>
+        <td style="width:315px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">An On-Screen keyboard with a layout similar to a physical keyboard. The user taps with a pen to select characters. Characters are inserted into the text boxes as the user types.</text></para>
+        </td>
+        <td style="vertical-align:middle; width:231px;">
+          <para styleclass="Normal"><image src="sys8012_keyboard.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Letter Recognizer</text></para>
+        </td>
+        <td style="width:315px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">In one of the three areas the user can draw an individual character or digit. When the user pauses or releases the pen, the character is recognized and inserted at the current position in the textbox.</text></para>
+        </td>
+        <td style="vertical-align:middle; width:231px;">
+          <para styleclass="Normal"><image src="sys8012_letter.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Block Recognizer</text></para>
+        </td>
+        <td style="width:315px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">For users with experience in Palm&apos;s Grafitti input method the Block Recognizer provides a familiar interface.</text></para>
+        </td>
+        <td style="vertical-align:middle; width:231px;">
+          <para styleclass="Normal"><image src="sys8012_block.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Transcriber</text></para>
+        </td>
+        <td style="width:315px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Transcriber allows the user to write anywhere on the screen. The recognition software deciphers regular hand-writing without a lot of training.</text></para>
+        </td>
+        <td style="vertical-align:middle; width:231px;">
+          <para styleclass="Normal"><image src="sys8012_transcriber.png" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Companies can write their own input methods and install them on devices. Therefore, on your device you might see additional options while some of the options above might be missing. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SYS(8012) is only available on Windows Mobile. On all other platforms this functions always returns an empty string.</text></para>
+  </body>
+</topic>

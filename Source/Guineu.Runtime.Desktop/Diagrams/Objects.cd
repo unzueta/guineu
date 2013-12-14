@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Guineu.ObjectEngine.ObjectFactory" Collapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAAAAAAAAABAAAAAAAABAAAAgAAAAEAAAAAAAQ=</HashCode>
+      <FileName>ObjectEngine\objects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Guineu.ObjectEngine.ObjectBase" Collapsed="true">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAEAACACAmAAAIAAAQGQIAQADAAQIBmA0IBABAII=</HashCode>
+      <FileName>ObjectEngine\ObjectBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Guineu.ObjectEngine.basForm" Collapsed="true">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAwBAAAAAIQAIAAAAAAAAIgAAkAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ObjectEngine\basForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guineu.ObjectEngine.basFormTemplate" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectEngine\basForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

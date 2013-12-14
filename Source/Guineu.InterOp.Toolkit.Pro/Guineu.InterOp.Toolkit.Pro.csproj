@@ -1,0 +1,1251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C44441D-D80F-4A3A-B4A2-D7428CAF1518}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guineu</RootNamespace>
+    <AssemblyName>Guineu.InterOp.Toolkit.Pro</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Guineu.Runtime.Desktop\References\System.Data.SqlServerCe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\APPEND.cs">
+      <Link>Commands\APPEND.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ASSERT.cs">
+      <Link>Commands\ASSERT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CASE.cs">
+      <Link>Commands\CASE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CD.cs">
+      <Link>Commands\CD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CLEAR EVENTS.cs">
+      <Link>Commands\CLEAR EVENTS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CLEAR.cs">
+      <Link>Commands\CLEAR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CLEAR.desktop.cs">
+      <Link>Commands\CLEAR.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CLOSE DATABASES.cs">
+      <Link>Commands\CLOSE DATABASES.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CONTINUE.cs">
+      <Link>Commands\CONTINUE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\COPY FILE.cs">
+      <Link>Commands\COPY FILE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\CREATE CURSOR.cs">
+      <Link>Commands\CREATE CURSOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DEBUG.cs">
+      <Link>Commands\DEBUG.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DEBUGOUT.cs">
+      <Link>Commands\DEBUGOUT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DELETE FILE.cs">
+      <Link>Commands\DELETE FILE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DELETE.cs">
+      <Link>Commands\DELETE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DIMENSION.cs">
+      <Link>Commands\DIMENSION.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DO CASE.cs">
+      <Link>Commands\DO CASE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DO FORM.cs">
+      <Link>Commands\DO FORM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DO WHILE.cs">
+      <Link>Commands\DO WHILE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\DO.cs">
+      <Link>Commands\DO.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ELSE.cs">
+      <Link>Commands\ELSE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDCASE.cs">
+      <Link>Commands\ENDCASE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDDO.cs">
+      <Link>Commands\ENDDO.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDFOR.cs">
+      <Link>Commands\ENDFOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDIF.cs">
+      <Link>Commands\ENDIF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDPROC.cs">
+      <Link>Commands\ENDPROC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ENDSCAN.cs">
+      <Link>Commands\ENDSCAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ERASE.cs">
+      <Link>Commands\ERASE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ERASE.desktop.cs">
+      <Link>Commands\ERASE.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ERROR.cs">
+      <Link>Commands\ERROR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\EXIT.cs">
+      <Link>Commands\EXIT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\FOR.cs">
+      <Link>Commands\FOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\FunctionCall.cs">
+      <Link>Commands\FunctionCall.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\GATHER.cs">
+      <Link>Commands\GATHER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\GOTO.cs">
+      <Link>Commands\GOTO.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\IF.cs">
+      <Link>Commands\IF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\InClause.cs">
+      <Link>Commands\InClause.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\IteratorClause.cs">
+      <Link>Commands\IteratorClause.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\LET.cs">
+      <Link>Commands\LET.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\LOCAL.cs">
+      <Link>Commands\LOCAL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\LOCATE.cs">
+      <Link>Commands\LOCATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\LOOP.cs">
+      <Link>Commands\LOOP.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\LPARAMETERS.cs">
+      <Link>Commands\LPARAMETERS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\OTHERWISE.cs">
+      <Link>Commands\OTHERWISE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\PRINT.cs">
+      <Link>Commands\PRINT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\PRINTPRINT.cs">
+      <Link>Commands\PRINTPRINT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\PUBLIC.cs">
+      <Link>Commands\PUBLIC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\QUIT.cs">
+      <Link>Commands\QUIT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\READ EVENTS.cs">
+      <Link>Commands\READ EVENTS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\REPLACE.cs">
+      <Link>Commands\REPLACE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\RESTORE.cs">
+      <Link>Commands\RESTORE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\RETURN.cs">
+      <Link>Commands\RETURN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\RUN.cs">
+      <Link>Commands\RUN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SAVE.cs">
+      <Link>Commands\SAVE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SCAN.cs">
+      <Link>Commands\SCAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SCATTER.cs">
+      <Link>Commands\SCATTER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ScopeClause.cs">
+      <Link>Commands\ScopeClause.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SEEK.cs">
+      <Link>Commands\SEEK.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SELECT.cs">
+      <Link>Commands\SELECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET BELL.cs">
+      <Link>Commands\SET BELL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET CLASSLIB.cs">
+      <Link>Commands\SET CLASSLIB.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET COVERAGE.cs">
+      <Link>Commands\SET COVERAGE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET DECIMALS.cs">
+      <Link>Commands\SET DECIMALS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET DELETED.cs">
+      <Link>Commands\SET DELETED.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET EXACT.cs">
+      <Link>Commands\SET EXACT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET EXCLUSIVE.cs">
+      <Link>Commands\SET EXCLUSIVE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET Factory.cs">
+      <Link>Commands\SET Factory.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET FILTER.cs">
+      <Link>Commands\SET FILTER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET MEMOWIDTH.cs">
+      <Link>Commands\SET MEMOWIDTH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET NOTIFY.cs">
+      <Link>Commands\SET NOTIFY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET NULLDISPLAY.cs">
+      <Link>Commands\SET NULLDISPLAY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET ORDER.cs">
+      <Link>Commands\SET ORDER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET PATH.cs">
+      <Link>Commands\SET PATH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET PATH.desktop.cs">
+      <Link>Commands\SET PATH.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET PROCEDURE.cs">
+      <Link>Commands\SET PROCEDURE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET SAFETY.cs">
+      <Link>Commands\SET SAFETY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET STATUS BAR.cs">
+      <Link>Commands\SET STATUS BAR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET STATUS facade.cs">
+      <Link>Commands\SET STATUS facade.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET STATUS.cs">
+      <Link>Commands\SET STATUS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET STEP.cs">
+      <Link>Commands\SET STEP.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET SYSFORMATS.cs">
+      <Link>Commands\SET SYSFORMATS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SET TALK.cs">
+      <Link>Commands\SET TALK.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\SKIP.cs">
+      <Link>Commands\SKIP.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\STORE.cs">
+      <Link>Commands\STORE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\USE.cs">
+      <Link>Commands\USE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\VariableAssignment.cs">
+      <Link>Commands\VariableAssignment.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\WAIT.cs">
+      <Link>Commands\WAIT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Commands\ZAP.cs">
+      <Link>Commands\ZAP.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\CommandTokens.cs">
+      <Link>CommandTokens.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\CommandTokens.desktop.cs">
+      <Link>CommandTokens.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\DebugEventArgs.cs">
+      <Link>Core\DebugEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\ErrorItem.cs">
+      <Link>Core\ErrorItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\ErrorItemCollection.cs">
+      <Link>Core\ErrorItemCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\ExecutableContext.cs">
+      <Link>Core\ExecutableContext.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\FileManager.cs">
+      <Link>Core\FileManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\FileManager.desktop.cs">
+      <Link>Core\FileManager.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\FileSystem\IVirtualFileSystem.cs">
+      <Link>Core\FileSystem\IVirtualFileSystem.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\FileSystem\VirtualFileSystem.desktop.cs">
+      <Link>Core\FileSystem\VirtualFileSystem.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\LowLevelFilesMngr.desktop.cs">
+      <Link>Core\LowLevelFilesMngr.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\LowLevelFilsMngr.cs">
+      <Link>Core\LowLevelFilsMngr.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\NonClosingStream.cs">
+      <Link>Core\NonClosingStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\Options.cs">
+      <Link>Core\Options.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\PInvoke.cs">
+      <Link>Core\PInvoke.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Core\TokenArray.cs">
+      <Link>Core\TokenArray.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Cursor\Cursor.cs">
+      <Link>Data\Engines\Cursor\Cursor.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\DbfTable.cs">
+      <Link>Data\Engines\Dbf\DbfTable.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\FieldDefinition.cs">
+      <Link>Data\Engines\Dbf\FieldDefinition.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexFile.cs">
+      <Link>Data\Engines\Dbf\IndexFile.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexFile.desktop.cs">
+      <Link>Data\Engines\Dbf\IndexFile.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexHeader.cs">
+      <Link>Data\Engines\Dbf\IndexHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexNavigator.cs">
+      <Link>Data\Engines\Dbf\IndexNavigator.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexNode.cs">
+      <Link>Data\Engines\Dbf\IndexNode.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexNodeExterior.cs">
+      <Link>Data\Engines\Dbf\IndexNodeExterior.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexNodeInterior.cs">
+      <Link>Data\Engines\Dbf\IndexNodeInterior.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexNodeReader.cs">
+      <Link>Data\Engines\Dbf\IndexNodeReader.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\IndexTag.cs">
+      <Link>Data\Engines\Dbf\IndexTag.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\Index\IndexReaderWriter.cs">
+      <Link>Data\Engines\Dbf\Index\IndexReaderWriter.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\Index\KeyItem.cs">
+      <Link>Data\Engines\Dbf\Index\KeyItem.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\Index\KeyList.cs">
+      <Link>Data\Engines\Dbf\Index\KeyList.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\LockManager.cs">
+      <Link>Data\Engines\Dbf\LockManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\LockManager.desktop.cs">
+      <Link>Data\Engines\Dbf\LockManager.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\MemoFile.cs">
+      <Link>Data\Engines\Dbf\MemoFile.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\Record.cs">
+      <Link>Data\Engines\Dbf\Record.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\Table.cs">
+      <Link>Data\Engines\Dbf\Table.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\TableHeader.cs">
+      <Link>Data\Engines\Dbf\TableHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Dbf\TableNavigator.cs">
+      <Link>Data\Engines\Dbf\TableNavigator.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\Compact\CompactEngine.cs">
+      <Link>Data\Engines\Spt\Compact\CompactEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\Context\ContextConnectionEngine.cs">
+      <Link>Data\Engines\Spt\Context\ContextConnectionEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\ISptEngine.cs">
+      <Link>Data\Engines\Spt\ISptEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\Odbc\OdbcEngine.cs">
+      <Link>Data\Engines\Spt\Odbc\OdbcEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\SptConnection.cs">
+      <Link>Data\Engines\Spt\SptConnection.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Engines\Spt\SptConnectionManager.cs">
+      <Link>Data\Engines\Spt\SptConnectionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\ICursor.cs">
+      <Link>Data\ICursor.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\INavigator.cs">
+      <Link>Data\INavigator.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\IRecordIterator.cs">
+      <Link>Data\IRecordIterator.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\RecordInUseByAnotherUserException.cs">
+      <Link>Data\RecordInUseByAnotherUserException.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\RecordInUseByAnotherUserException.desktop.cs">
+      <Link>Data\RecordInUseByAnotherUserException.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\RecordIterator.cs">
+      <Link>Data\RecordIterator.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Data\Scope.cs">
+      <Link>Data\Scope.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Error.cs">
+      <Link>Error.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ErrorException.desktop.cs">
+      <Link>ErrorException.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ExecutionPath.desktop.cs">
+      <Link>ExecutionPath.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Expression\ExpressionCompiler.cs">
+      <Link>Expression\ExpressionCompiler.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Expression\ExpressionCompiler.desktop.cs">
+      <Link>Expression\ExpressionCompiler.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Expression\NameTable.cs">
+      <Link>Expression\NameTable.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Expression\Nti.cs">
+      <Link>Expression\Nti.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Expression\StringCompiler.cs">
+      <Link>Expression\StringCompiler.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ABS.cs">
+      <Link>Functions\ABS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ACOS.cs">
+      <Link>Functions\ACOS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ADDBS.cs">
+      <Link>Functions\ADDBS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ADEL.cs">
+      <Link>Functions\ADEL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ADIR.cs">
+      <Link>Functions\ADIR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ADIR.desktop.cs">
+      <Link>Functions\ADIR.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\AERROR.cs">
+      <Link>Functions\AERROR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ALEN.cs">
+      <Link>Functions\ALEN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ALIAS.cs">
+      <Link>Functions\ALIAS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ALINES.cs">
+      <Link>Functions\ALINES.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ALINES.desktop.cs">
+      <Link>Functions\ALINES.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ALLTRIM.cs">
+      <Link>Functions\ALLTRIM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\APRINTERS.cs">
+      <Link>Functions\APRINTERS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\APRINTERS.desktop.cs">
+      <Link>Functions\APRINTERS.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ASC.cs">
+      <Link>Functions\ASC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ASCAN.cs">
+      <Link>Functions\ASCAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ASIN.cs">
+      <Link>Functions\ASIN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\AT.cs">
+      <Link>Functions\AT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ATAN.cs">
+      <Link>Functions\ATAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ATC.cs">
+      <Link>Functions\ATC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ATN2.cs">
+      <Link>Functions\ATN2.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BETWEEN.cs">
+      <Link>Functions\BETWEEN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITAND.cs">
+      <Link>Functions\BITAND.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITCLEAR.cs">
+      <Link>Functions\BITCLEAR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITLSHIFT.cs">
+      <Link>Functions\BITLSHIFT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITNOT.cs">
+      <Link>Functions\BITNOT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITOR.cs">
+      <Link>Functions\BITOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITRSHIFT.cs">
+      <Link>Functions\BITRSHIFT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITSET.cs">
+      <Link>Functions\BITSET.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITTEST.cs">
+      <Link>Functions\BITTEST.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BITXOR.cs">
+      <Link>Functions\BITXOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\BOF.cs">
+      <Link>Functions\BOF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CEILING.cs">
+      <Link>Functions\CEILING.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CHR.cs">
+      <Link>Functions\CHR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CHRTRAN.cs">
+      <Link>Functions\CHRTRAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CMONTH.cs">
+      <Link>Functions\CMONTH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\COS.cs">
+      <Link>Functions\COS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CREATEOBJECT.cs">
+      <Link>Functions\CREATEOBJECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CTOD.cs">
+      <Link>Functions\CTOD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\CURDIR.cs">
+      <Link>Functions\CURDIR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DATE.cs">
+      <Link>Functions\DATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DATETIME.cs">
+      <Link>Functions\DATETIME.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DAY.cs">
+      <Link>Functions\DAY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DEFAULTEXT.cs">
+      <Link>Functions\DEFAULTEXT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DELETED.cs">
+      <Link>Functions\DELETED.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DIRECTORY.cs">
+      <Link>Functions\DIRECTORY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DISPLAYPATH.cs">
+      <Link>Functions\DISPLAYPATH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DOW.cs">
+      <Link>Functions\DOW.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DRIVETYPE.cs">
+      <Link>Functions\DRIVETYPE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DRIVETYPE.desktop.cs">
+      <Link>Functions\DRIVETYPE.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DTOC.cs">
+      <Link>Functions\DTOC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DTOR.cs">
+      <Link>Functions\DTOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\DTOS.cs">
+      <Link>Functions\DTOS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\EMPTY.cs">
+      <Link>Functions\EMPTY.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\EOF.cs">
+      <Link>Functions\EOF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\EVALUATE.cs">
+      <Link>Functions\EVALUATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\EVL.cs">
+      <Link>Functions\EVL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\EXP.cs">
+      <Link>Functions\EXP.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FCHSIZE.cs">
+      <Link>Functions\FCHSIZE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FCLOSE.cs">
+      <Link>Functions\FCLOSE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FCOUNT.cs">
+      <Link>Functions\FCOUNT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FCREATE.cs">
+      <Link>Functions\FCREATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FDATE.cs">
+      <Link>Functions\FDATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FEOF.cs">
+      <Link>Functions\FEOF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FERROR.cs">
+      <Link>Functions\FERROR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FFLUSH.cs">
+      <Link>Functions\FFLUSH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FGETS.cs">
+      <Link>Functions\FGETS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FIELD.cs">
+      <Link>Functions\FIELD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FILE.cs">
+      <Link>Functions\FILE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FILETOSTR.cs">
+      <Link>Functions\FILETOSTR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FLOOR.cs">
+      <Link>Functions\FLOOR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FONTMETRIC.cs">
+      <Link>Functions\FONTMETRIC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FONTMETRIC.desktop.cs">
+      <Link>Functions\FONTMETRIC.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FOPEN.cs">
+      <Link>Functions\FOPEN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FORCEEXT.cs">
+      <Link>Functions\FORCEEXT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FORCEPATH.cs">
+      <Link>Functions\FORCEPATH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FOUND.cs">
+      <Link>Functions\FOUND.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FPUTS.cs">
+      <Link>Functions\FPUTS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FREAD.cs">
+      <Link>Functions\FREAD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FSEEK.cs">
+      <Link>Functions\FSEEK.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FULLPATH.cs">
+      <Link>Functions\FULLPATH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FV.cs">
+      <Link>Functions\FV.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\FWRITE.cs">
+      <Link>Functions\FWRITE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GETENV.cs">
+      <Link>Functions\GETENV.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GETENV.desktop.cs">
+      <Link>Functions\GETENV.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GETPEM.cs">
+      <Link>Functions\GETPEM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GETWORDCOUNT.cs">
+      <Link>Functions\GETWORDCOUNT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GETWORDNUM.cs">
+      <Link>Functions\GETWORDNUM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\GOMONTH.cs">
+      <Link>Functions\GOMONTH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\HOUR.cs">
+      <Link>Functions\HOUR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ICASE.cs">
+      <Link>Functions\ICASE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\IIF.cs">
+      <Link>Functions\IIF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\INLIST.cs">
+      <Link>Functions\INLIST.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\INT.cs">
+      <Link>Functions\INT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ISALPHA.cs">
+      <Link>Functions\ISALPHA.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ISDIGIT.cs">
+      <Link>Functions\ISDIGIT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ISLOWER.cs">
+      <Link>Functions\ISLOWER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ISNULL.cs">
+      <Link>Functions\ISNULL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ISUPPER.cs">
+      <Link>Functions\ISUPPER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\JUSTDRIVE.cs">
+      <Link>Functions\JUSTDRIVE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\JUSTEXT.cs">
+      <Link>Functions\JUSTEXT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\JUSTFNAME.cs">
+      <Link>Functions\JUSTFNAME.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\JUSTPATH.cs">
+      <Link>Functions\JUSTPATH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\JUSTSTEM.cs">
+      <Link>Functions\JUSTSTEM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\LEFT.cs">
+      <Link>Functions\LEFT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\LEN.cs">
+      <Link>Functions\LEN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\LOG.cs">
+      <Link>Functions\LOG.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\LOG10.cs">
+      <Link>Functions\LOG10.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\LOWER.cs">
+      <Link>Functions\LOWER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MAX.cs">
+      <Link>Functions\MAX.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MESSAGEBOX.cs">
+      <Link>Functions\MESSAGEBOX.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MESSAGEBOX.desktop.cs">
+      <Link>Functions\MESSAGEBOX.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MIN.cs">
+      <Link>Functions\MIN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MINUTE.cs">
+      <Link>Functions\MINUTE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\MONTH.cs">
+      <Link>Functions\MONTH.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\NEWOBJECT.cs">
+      <Link>Functions\NEWOBJECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\NVL.cs">
+      <Link>Functions\NVL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\OCCURS.cs">
+      <Link>Functions\OCCURS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\PAYMENT.cs">
+      <Link>Functions\PAYMENT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\PI.cs">
+      <Link>Functions\PI.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\PROGRAM.cs">
+      <Link>Functions\PROGRAM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\PV.cs">
+      <Link>Functions\PV.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\QUARTER.cs">
+      <Link>Functions\QUARTER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RAND.cs">
+      <Link>Functions\RAND.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RAT.cs">
+      <Link>Functions\RAT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RATC.cs">
+      <Link>Functions\RATC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RECCOUNT.cs">
+      <Link>Functions\RECCOUNT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RECNO.cs">
+      <Link>Functions\RECNO.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\REPLICATE.cs">
+      <Link>Functions\REPLICATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RGB.cs">
+      <Link>Functions\RGB.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RIGHT.cs">
+      <Link>Functions\RIGHT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\ROUND.cs">
+      <Link>Functions\ROUND.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\RTOD.cs">
+      <Link>Functions\RTOD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SEC.cs">
+      <Link>Functions\SEC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SECONDS.cs">
+      <Link>Functions\SECONDS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SECONDS.desktop.cs">
+      <Link>Functions\SECONDS.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SEEK Function.cs">
+      <Link>Functions\SEEK Function.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SELECT Function.cs">
+      <Link>Functions\SELECT Function.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SIGN.cs">
+      <Link>Functions\SIGN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SIN.cs">
+      <Link>Functions\SIN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SOUNDEX.cs">
+      <Link>Functions\SOUNDEX.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SPACE.cs">
+      <Link>Functions\SPACE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SQLDISCONNECT.cs">
+      <Link>Functions\SQLDISCONNECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SQLEXEC.cs">
+      <Link>Functions\SQLEXEC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SQLSTRINGCONNECT.cs">
+      <Link>Functions\SQLSTRINGCONNECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SQRT.cs">
+      <Link>Functions\SQRT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\STR.cs">
+      <Link>Functions\STR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\STREXTRACT.cs">
+      <Link>Functions\STREXTRACT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\STRTOFILE.cs">
+      <Link>Functions\STRTOFILE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\STRTRAN.cs">
+      <Link>Functions\STRTRAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\STUFF.cs">
+      <Link>Functions\STUFF.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SUBSTR.cs">
+      <Link>Functions\SUBSTR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS.cs">
+      <Link>Functions\SYS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS.desktop.cs">
+      <Link>Functions\SYS.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS0.cs">
+      <Link>Functions\SYS0.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS1.cs">
+      <Link>Functions\SYS1.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS1079.cs">
+      <Link>Functions\SYS1079.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS16.cs">
+      <Link>Functions\SYS16.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS2.cs">
+      <Link>Functions\SYS2.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS2000.cs">
+      <Link>Functions\SYS2000.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS2015.cs">
+      <Link>Functions\SYS2015.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS3.cs">
+      <Link>Functions\SYS3.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8000.cs">
+      <Link>Functions\SYS8000.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8001.cs">
+      <Link>Functions\SYS8001.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8002.cs">
+      <Link>Functions\SYS8002.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8003.cs">
+      <Link>Functions\SYS8003.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8004.cs">
+      <Link>Functions\SYS8004.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8004.desktop.cs">
+      <Link>Functions\SYS8004.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8005.cs">
+      <Link>Functions\SYS8005.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8006 default.cs">
+      <Link>Functions\SYS8006 default.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8007 default.cs">
+      <Link>Functions\SYS8007 default.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8008.cs">
+      <Link>Functions\SYS8008.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8008.desktop.cs">
+      <Link>Functions\SYS8008.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8009.cs">
+      <Link>Functions\SYS8009.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8010.desktop.cs">
+      <Link>Functions\SYS8010.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8011.cs">
+      <Link>Functions\SYS8011.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8012 default.cs">
+      <Link>Functions\SYS8012 default.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8013.cs">
+      <Link>Functions\SYS8013.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8013.desktop.cs">
+      <Link>Functions\SYS8013.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8014.cs">
+      <Link>Functions\SYS8014.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8015.cs">
+      <Link>Functions\SYS8015.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYS8015.desktop.cs">
+      <Link>Functions\SYS8015.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\SYSMETRIC.cs">
+      <Link>Functions\SYSMETRIC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\TAN.cs">
+      <Link>Functions\TAN.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\TIME.cs">
+      <Link>Functions\TIME.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\TRANSFORM.cs">
+      <Link>Functions\TRANSFORM.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\TTOD.cs">
+      <Link>Functions\TTOD.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\UPPER.cs">
+      <Link>Functions\UPPER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\USED.cs">
+      <Link>Functions\USED.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\VAL.cs">
+      <Link>Functions\VAL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\VARTYPE.cs">
+      <Link>Functions\VARTYPE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\VERSION.cs">
+      <Link>Functions\VERSION.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\VERSION.desktop.cs">
+      <Link>Functions\VERSION.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Functions\YEAR.cs">
+      <Link>Functions\YEAR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\FxpReader2.cs">
+      <Link>FxpReader2.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\FXP_neu für FoxPro.NET.cs">
+      <Link>FXP_neu für FoxPro.NET.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\GlobalSuppressions.cs">
+      <Link>GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Guineu.cs">
+      <Link>Guineu.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Gui\IControl.cs">
+      <Link>Gui\IControl.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\IndexedList.cs">
+      <Link>IndexedList.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\MathHelper.desktop.cs">
+      <Link>MathHelper.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\basCustom.cs">
+      <Link>ObjectEngine\basCustom.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\GenericEvent.cs">
+      <Link>ObjectEngine\GenericEvent.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\GenericMethod.cs">
+      <Link>ObjectEngine\GenericMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\GenericProperty.cs">
+      <Link>ObjectEngine\GenericProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\NestedClass.cs">
+      <Link>ObjectEngine\NestedClass.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\ObjectBase.cs">
+      <Link>ObjectEngine\ObjectBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\objects.cs">
+      <Link>ObjectEngine\objects.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\ObjectTemplate.cs">
+      <Link>ObjectEngine\ObjectTemplate.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\ParentProperty.cs">
+      <Link>ObjectEngine\ParentProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\StringProperty.cs">
+      <Link>ObjectEngine\StringProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\ObjectEngine\UserDefinedMethod.cs">
+      <Link>ObjectEngine\UserDefinedMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Operators.cs">
+      <Link>Operators.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Resolver.cs">
+      <Link>Resolver.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Settings.cs">
+      <Link>Settings.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\BufferUtil.cs">
+      <Link>Util\BufferUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\Date.cs">
+      <Link>Util\Date.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\EnumUtil.cs">
+      <Link>Util\EnumUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\SharedStopwatch.desktop.cs">
+      <Link>Util\SharedStopwatch.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\StreamUtil.cs">
+      <Link>Util\StreamUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Util\StringUtil.cs">
+      <Link>Util\StringUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Variables.cs">
+      <Link>Variables.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Variables.desktop.cs">
+      <Link>Variables.desktop.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\Variant.cs">
+      <Link>Variant.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu.Runtime.Desktop\VariantProperty.cs">
+      <Link>VariantProperty.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Classes\ControlClass.cs">
+      <Link>Classes\ControlClass.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\ADD OBJECT.cs">
+      <Link>Commands\ADD OBJECT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\AddMethod.cs">
+      <Link>Commands\AddMethod.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\EXTERNAL.cs">
+      <Link>Commands\EXTERNAL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\MacroSubstitution.cs">
+      <Link>Commands\MacroSubstitution.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\NODEFAULT.cs">
+      <Link>Commands\NODEFAULT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\PARAMETERS.cs">
+      <Link>Commands\PARAMETERS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\PRIVATE.cs">
+      <Link>Commands\PRIVATE.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\SET POINT.cs">
+      <Link>Commands\SET POINT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Expression\FunctionBase.cs">
+      <Link>Expression\FunctionBase.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\CTOT.cs">
+      <Link>Functions\CTOT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\FILTER.cs">
+      <Link>Functions\FILTER.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\OS.cs">
+      <Link>Functions\OS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\PADC.cs">
+      <Link>Functions\PADC.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\PADL.cs">
+      <Link>Functions\PADL.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\PADR.cs">
+      <Link>Functions\PADR.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\PARAMETERS.cs">
+      <Link>Functions\PARAMETERS.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\SET.cs">
+      <Link>Functions\SET.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Functions\STRCONV.cs">
+      <Link>Functions\STRCONV.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\ProcedureFile.cs">
+      <Link>ProcedureFile.cs</Link>
+    </Compile>
+    <Compile Include="Commands\SET CLASSLIB.desktop.cs" />
+    <Compile Include="GuineuInstance.interop.cs" />
+    <Compile Include="Gui\Window.cs" />
+    <Compile Include="IndexedList.interop.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

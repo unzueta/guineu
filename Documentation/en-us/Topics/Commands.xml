@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Commands</title>
+  <keywords>
+    <keyword translate="true">DO</keyword>
+    <keyword translate="true">USE</keyword>
+    <keyword translate="true">ZAP</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Commands</text></para>
+    </header>
+    <para styleclass="Normal"><table rowcount="80" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">APPEND</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. BLANK is automatically added. Works only in the current work area. New records are not added to the index file.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ASSERT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Ignored in runtime.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CD</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Mono the directory name is case-sensitive. Drive mappings create with SET VOLUME are ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CHDIR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Mono the directory name is case-sensitive. Drive mappings create with SET VOLUME are ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CLEAR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> All text is currently written to the console window. CLEAR is ignored on mobile devices.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CLEAR EVENTS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CLOSE DATABASES</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. As DBCs are currently not supported, CLOSE DATABASES is identical to CLOSE DATABASES ALL.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CONTINUE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">COPY FILE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CREATE CURSOR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for character and numeric fields. Only the field name, type and size can be specified at the moment.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DEBUG</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Ignored in runtime.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DEBUGOUT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Ignored in runtime.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DELETE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DELETE FILE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implememted.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Mono the file name is case-sensitive. Drive mappings create with SET VOLUME are ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DEFINE CLASS</text></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ADD OBJECT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Supports FXP files only. When building the project with GuineuIDE, all VCXes are automatically converted to FXP files. The DEFINE CLASS statements are generated.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Public properties can be set in the class definition. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">The AS clause is supported. OF and OLEPUBLIC are currently ignored. ADD OBJECT is supported for public object. The NOINIT attribute is ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DIMENSION</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. PRIVATE and PUBLIC variables are not yet supported. All variables are created as LOCALs. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Use the PUBLIC command to create a public array.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DO CASE...ENDCASE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DO FORM</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Executes a name.SCX.PRG file that is automatically generated by GuineuIDE.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DO WHILE...ENDDO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="DO" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DO</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ERASE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ERROR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="EXIT_command" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EXIT</link></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemente.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FOR...ENDFOR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FOR...NEXT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Function()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Function calls are supported for built-in functions and user-defined procedures and functions.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FUNCTION...ENDFUNC</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Protected and hidden functions are not supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GATHER</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GO | GOTO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">IF...ELSE...ENDIF</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">INSERT - SQL</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MKDIR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOCAL</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOCATE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOOP</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LPARAMETERS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:32px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="NODEFAULT_Command" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">NODEFAULT</link></para>
+        </td>
+        <td style="height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">NOTE</text></para>
+        </td>
+        <td style="height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PARAMETERS</text></para>
+        </td>
+        <td style="height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:158px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">?</text></para>
+        </td>
+        <td style="height:158px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> All text is currently written to the console window. Future versions will provide two runtimes: One for text-based applications in which ? prints to the console window and one purely graphical one that redirect output to the current window.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">??</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> All text is currently written to the console window. Future versions will provide two runtimes: One for text-based applications in which ?? prints to the console window and one purely graphical one that redirect output to the current window.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PUBLIC</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PRIVATE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PROCEDURE...ENDPROC</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. &#160;Protected and hidden procedures are not supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">READ EVENTS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">REPLACE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RESTORE FROM</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Variables are all loaded as LOCALs. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RETURN</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The TO clause is ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RUN</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SAVE TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SCAN...ENDSCAN</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The FOR clause is supported, but not optimized. None of the remaining clauses is currently working.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SCATTER</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SEEK</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for DBF files. String, numeric, date and datetime indexes are supported. Only collate sequence MACHINE is supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SELECT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. SQL-SELECT is not implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:33px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET BELL TO</text></para>
+        </td>
+        <td style="height:33px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET CLASSLIB TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP: </text><text styleclass="Normal" translate="true">Guineu loads .NET assemblies and makes them available to CREATEOBJECT().</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET COVERAGE TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> There is one more column with the command name. Guineu logs every line that compiles to binary tokens in the FXP file. This includes lines like ELSE, ENDIF, ENDPROC, ADD OBJECT, etc. Guineu does therefore create more lines in a log file.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET DECIMALS TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET DELETED TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET EXACT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Is not yet scoped to the current datasession. Not all comparisons take SET EXACT into account.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET EXCLUSIVE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Is not yet scoped to the current datasession.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET FILTER TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET MEMOWIDTH</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET NOTIFY</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET NULLDISPLAY TO</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET ORDER TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET PATH TO</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. ADDITIVE is ignored. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET PROCEDURE TO</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET SAFETY</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Is not yet scoped to the current datasession.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET STATUS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET STATUS BAR</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET STEP ON</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true">&#32;</text><text styleclass="Normal" translate="true">Breaks only if a Windows debugger (eg. Visual Studio) is attached to the process.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET SYSFORMATS</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Is not yet scoped to the current datasession.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SET TALK</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Is not yet scoped to the current datasession.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SKIP</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STORE</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="USE" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">USE</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Field names are truncated to 10 characters. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Read operations are supported for all data types except for general fields. Those are treated as binary memo fields. Write operation are supported on all data types except Variants, double and floats.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Write operation do not update the index. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Variable assignment</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. If a variable doesn&apos;t exist, it&apos;s created as a LOCAL variable instead of a PRIVATE.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">WAIT</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="ZAP" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ZAP</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The index file is not yet updated and will be out of sync after ZAPping.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

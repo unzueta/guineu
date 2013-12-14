@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Samples</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Samples</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This section describes the various samples that come with Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ul" listtype="bullet" formatstring="·" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt;">
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Inventory" styleclass="Normal" translate="true">Inventory</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Speed1" styleclass="Normal" translate="true">Speed1</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Unicode" styleclass="Normal" translate="true">Unicode</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="WinForm" styleclass="Normal" translate="true">WinForm</link></li>
+      <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SQL1" styleclass="Normal" translate="true">SQL1</link></li>
+    </list>
+  </body>
+</topic>

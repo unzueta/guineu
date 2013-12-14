@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Timer Control Properties, Methods, and Events</title>
+  <keywords>
+    <keyword translate="true">Enabled</keyword>
+    <keyword translate="true">Init</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Timer Control Properties, Methods, and Events</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The following table lists all properties, methods, and events for the timer control.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Properties</text></para>
+    <para styleclass="Normal"><table styleclass="Properties" rowcount="1" colcount="3">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enabled_Property" styleclass="Normal" translate="true">Enabled</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Interval_Property" styleclass="Normal" translate="true">Interval</link></para>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Events</text></para>
+    <para styleclass="Normal"><table styleclass="Properties" rowcount="1" colcount="3">
+      <tr style="vertical-align:top">
+        <td>
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Init_event" styleclass="Normal" translate="true">Init</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Timer_Event" styleclass="Normal" translate="true">Timer</link></para>
+        </td>
+        <td>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

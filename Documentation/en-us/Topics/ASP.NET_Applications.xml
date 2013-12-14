@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd" status="Under Construction">
+  <title translate="true">ASP.NET Applications</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ASP.NET Applications</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ASP.NET application rely on the Visual Web.GUI framework.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu does not deploy the application, merely compiles it. The generated sample HTM form expects that there&apos;s a virtual directory &quot;g&quot; pointing to the project directory. Not perfect, but was enough to quickly demonstrate this.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You could create your own virtual directory pointing to the project directory, or copy the bin directory, the resource directory, and the web.config file into a virtual directory of your web server. You need to register the *.wgx extension the same as the aspx extension. The name of the default page is index.wgx.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

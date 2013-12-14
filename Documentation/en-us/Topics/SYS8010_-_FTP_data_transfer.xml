@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8010) - FTP data transfer</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8010) - FTP data transfer</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Exchanges data with a web server over HTTP.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8010, cOperation, cUrl [, cUsername, cPassword [, cData]])</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cOperation</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the FTP operation to be performed. Valid values are:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="3" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#cc99ff; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:147px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Method</text></para>
+        </td>
+        <td style="width:547px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">GET</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns the content of the specified file.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">PUT</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Sends the content of cData to the FTP server as the specified file. Returns a string with the number of bytes that have been transmitted successfully </text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cUrl</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">A valid FTP server address in the form</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><link displaytype="text" defaultstyle="true" type="topiclink" href="FULLPATH" styleclass="Explanation" translate="true">ftp://server/directory/file</link></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The Url can point to any server that is reachable from the computer or device. Mobile devices with internet connections, such as cell phones, can send and receive data across the internet. As the transfer uses the FTP protocol, neither the content nor the password are encrypted. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The protocol qualifier (i.e. ftp://) is mandatory.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cUsername</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the user name that is used to log onto the FTP server. If you omit the user name, Guineu attempts to connect anonymously.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cPassword</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the user name that is used to log onto the FTP server. Please note that the FTP protocol transfers the password in a readable format.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cData</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Contains additional data that is sent with the request.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string. The meaning of the return value depends on the operation.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Example</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Sys(8010, ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;&quot;put&quot;, ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;&quot;transfer.foxpert.com/sample.txt&quot;, ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;&quot;username&quot;, ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;&quot;password&quot;, ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true"> &#160;FILETOSTR(&quot;file.txt&quot;) ;</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu uses passive, binary transfer for any file operations. If you transfer text file to a Linux server you need to convert code pages and line feed character prior to sending the file.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You are not limited to transfer text data. If you want to pass on state information to a VFP application running on a Windows server, you can use SAVE MEMORY to save all current variables. On the backend you can use RESTORE MEMORY to load the variable set into memory. This is especially useful when the remote script executes a query and query parameters have been stored in local variables.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Please note that your service provider might charge you for any internet traffic originating from your cell phone or mobile device. The ability to transfer data over the internet depends on your device, the connection and your service plan.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8009_-_HTTP_data_transfer" styleclass="Normal" translate="true">SYS(8009) - HTTP data transfer</link></para>
+  </body>
+</topic>

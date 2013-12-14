@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Debugging FoxPro code from .NET</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Debugging FoxPro code from .NET</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu offers a debugging hook that allows you to trace your FoxPro code as it executes. Enabling debugging support is a three step process.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">1) In your FoxPro program you must enable debugging by using </text><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8003_-_.NET_Debugger_suppor" styleclass="Normal" translate="true">SYS(8003)</link><text styleclass="Normal" translate="true">:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#0000ff;" translate="true">Sys</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#000000;" translate="true">(8003,1)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">2) Define a delegate that is called before or after each line of FoxPro code is executed. The delegate receives an event argument with detailed information:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#0000ff;" translate="true">static</text><text styleclass="Code Example" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#0000ff;" translate="true">void</text><text styleclass="Code Example" translate="true"> DebugListener(</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">Object</text><text styleclass="Code Example" translate="true"> sender, Core.</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">DebugEventArgs</text><text styleclass="Code Example" translate="true"> e)</text></para>
+    <para styleclass="Normal"><text styleclass="Code Example" translate="true">{</text></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true"> &#160;Console</text><text styleclass="Code Example" translate="true">.WriteLine(</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#800000;" translate="true">&quot;{0}, {1} in {2}&quot;</text><text styleclass="Code Example" translate="true">, e.Line.ToString(), e.Module, e.File);</text></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true"> &#160;Console</text><text styleclass="Code Example" translate="true">.WriteLine(</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#800000;" translate="true">&quot;{0} variables declared.&quot;</text><text styleclass="Code Example" translate="true">,e.Locals.Count);</text></para>
+    <para styleclass="Normal"><text styleclass="Code Example" translate="true">}</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Please note the e.Line is the line number in the compiled program. It doesn&apos;t match the source code line number in the PRG.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">3) Subscribe to the event in your main program before you execute the compiled program:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">GuineuInstance</text><text styleclass="Code Example" translate="true">.InitInstance();</text></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">GuineuInstance</text><text styleclass="Code Example" translate="true">.DebugBefore += </text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#0000ff;" translate="true">new</text><text styleclass="Code Example" translate="true">&#32;</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">EventHandler</text><text styleclass="Code Example" translate="true">&lt;Guineu.Core.</text><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">DebugEventArgs</text><text styleclass="Code Example" translate="true">&gt;(DebugListener);</text></para>
+    <para styleclass="Normal"><text style="font-family:&apos;Courier New&apos;; font-size:10pt; color:#008080;" translate="true">GuineuInstance</text><text styleclass="Code Example" translate="true">.Do(Filename);</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The sample above creates a simplified coverage log, when you execute the application</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">C:\Source\Guineu.EXE\bin\Debug&gt;Guineu.exe test2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">1, &#160;in C:\SOURCE\GUINEU.EXE\BIN\DEBUG\TEST2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">0 variables declared.</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">0, TEST in C:\SOURCE\GUINEU.EXE\BIN\DEBUG\TEST2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">0 variables declared.</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">1, TEST in C:\SOURCE\GUINEU.EXE\BIN\DEBUG\TEST2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">1 variables declared.</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">2, TEST in C:\SOURCE\GUINEU.EXE\BIN\DEBUG\TEST2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">1 variables declared.</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">2, &#160;in C:\SOURCE\GUINEU.EXE\BIN\DEBUG\TEST2.FXP</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">0 variables declared.</text></para>
+    <para styleclass="Code Example"></para>
+  </body>
+</topic>

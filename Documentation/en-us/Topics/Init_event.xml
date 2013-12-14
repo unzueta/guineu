@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Init Event</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Init Event</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Is triggered when an object is created.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">Object.Init( [Param1, Param2, ...] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Param1, Param2, ...</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">You can pass any number of parameters to the Init event either on the DO FORM command line, or as part of the CREATEOBJECT() and NEWOBJECT() function calls.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Editbox_Control" styleclass="Normal" translate="true">Editbox Control</link><text styleclass="Normal" translate="true"> |</text><text styleclass="Normal" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Form_Control" styleclass="Normal" translate="true">Form Control</link><text styleclass="Normal" translate="true"> |</text><text styleclass="Normal" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_Control" styleclass="Normal" translate="true">Signature Control</link><text styleclass="Normal" translate="true"> |</text><text styleclass="Normal" translate="true">&#32;</text><link displaytype="text" defaultstyle="true" type="topiclink" href="Timer_Control" styleclass="Normal" translate="true">Timer Control</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The Init event fires in inside out order. Nested objects are initialized before their parent container is initialized. The Form&apos;s Init event is the last event to fire for a regular form.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The number of parameters is only constrained by the system resources that are available.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Load Event</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Destroy Event</text></para>
+  </body>
+</topic>

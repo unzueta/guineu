@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Complete" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Signature Property</title>
+  <keywords>
+    <keyword translate="true">Signature property</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Signature Property</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string expression that represents the signature as a bitmap. Not available at design time. Read-only at runtime.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Control.Signature = cBitmap</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cBitmap</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Returns. the signature as a bitmap. To display the signature bitmap use an image control and assign the string to the PictureVal property.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The signature control provides two different representations of the current signature. The Value property contains proprietary binary data to re-create the signature. The Value property can be changed to read and write signatures into a table. The ControlSource property refers to this binary data.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The Signature property returns a bitmap with the current signature. You cannot load an existing bitmap into the signature control. To display a signature stored as a bitmap use an image control.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_Control" styleclass="Normal" translate="true">Signature</link><text styleclass="Normal" translate="true">&#32;</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Value_Property" styleclass="Normal" translate="true">Value Property</link></para>
+  </body>
+</topic>

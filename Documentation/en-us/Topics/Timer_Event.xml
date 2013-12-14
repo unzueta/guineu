@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Timer Event</title>
+  <body>
+    <header>
+      <para styleclass="Normal"><text styleclass="Normal" translate="true">Timer Event</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Occurs when the number of milliseconds specified in the Interval property has elapsed.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Heading1"><text styleclass="Courier Fixed" translate="true">Timer.Timer</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Timer_Control" styleclass="Normal" translate="true">Timer Control</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Timer events do not occur recursively.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Interval_Property" styleclass="Normal" translate="true">Interval Property</link></para>
+  </body>
+</topic>

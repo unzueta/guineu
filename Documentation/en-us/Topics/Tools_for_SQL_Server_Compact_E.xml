@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Tools for SQL Server Compact Edition</title>
+  <keywords>
+    <keyword translate="true">http://www.codeplex.com/ExportSqlCE</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Tools for SQL Server Compact Edition</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Soykan OZCELIK [soykan@soykansoft.com]</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Export SQL CE </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">A management studio plugin for exporting data </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.codeplex.com/ExportSqlCE" target="_blank" styleclass="Normal" translate="true">http://www.codeplex.com/ExportSqlCE</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">SQL CE Viewer</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SQLCE Viewer is a database management tool for MS Sql Server Compact Edition 3.5 . It supports data transfer from various database systems (mySql, Access, SqlServer, Excel, SqlCe, SqlLite, Firebird).</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://sourceforge.net/projects/sqlceviewer/ " target="_blank" styleclass="Normal" translate="true">http://sourceforge.net/projects/sqlceviewer/ </link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">SQL CE Explorer </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Mini SqlServer Management Studio and SQL script generator </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://sqlceexplorer.codeplex.com/" target="_blank" styleclass="Normal" translate="true">http://sqlceexplorer.codeplex.com/</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">SQL Query Data Boy</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Runs directly from folder without installation.Connects to CE 3.1, CE 3.5, SQL 2000, SQL 2005, SQL 2008, and Oracle. &#160;</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.codeplex.com/databoy" target="_blank" styleclass="Normal" translate="true">http://www.codeplex.com/databoy
+</link></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

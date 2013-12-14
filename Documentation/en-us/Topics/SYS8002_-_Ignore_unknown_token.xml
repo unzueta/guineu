@@ -1,0 +1,25 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8002) - Ignore unknown tokens</title>
+  <keywords>
+    <keyword translate="true">SYS(8002)</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8002) - Ignore unknown tokens</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies whether unknown tokens such as unimplemented commands or functions, are ignored or raise an exception.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8002 [,0 | 1] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">0</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Do not ignore unknown tokens.. This is the default value at startup. Guineu terminates when it encounters a token it doesn&apos;t implement.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">1</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Ignore unknown tokens. Programs might misbehave when lines with unknown tokens are entirely skipped.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string that indicates the current state. If you don&apos;t pass a second parameter, Guineu returns the state without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu only tests for unknown tokens the first time it executes a line. SYS(8002) controls the behavior of Guineu for the first time. Subsequent executions of the same line ignore this setting.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

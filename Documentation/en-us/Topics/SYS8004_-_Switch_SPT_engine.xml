@@ -1,0 +1,44 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8004) - Switch SPT engine</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8004) - Switch SPT engine</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Switches or returns the current SPT engine.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8004 [,cEngine] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cEngine</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Name of the engine that is used for all subsequent SQLSTRINGCONNECT() operations. The following tables lists valid values:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="3" colcount="2" style="width:100%; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#999999; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:122px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">cEngine</text></para>
+        </td>
+        <td style="width:700px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:122px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">odbc</text></para>
+        </td>
+        <td style="width:700px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Uses the ODBC driver to connect to a data source. The connection string must be a valid connection string that depends on the ODBC driver. With this engine, Guineu behaves like Visual FoxPro 9.0. Default setting for the desktop version.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:122px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">compact</text></para>
+        </td>
+        <td style="width:700px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Uses the Microsoft SQL Server 2005 Compact database. The connection string must use the DataSource setting that points to a valid SDF file. The compact engine requires the &quot;System.Data.SqlServerCe.dll&quot; library to be either in the application directory or the global assembly cache.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string indicating the name of the current engine. If you don&apos;t pass a second parameter, Guineu returns the state without changing it.</text></para>
+    <para styleclass="Inline heading"></para>
+  </body>
+</topic>

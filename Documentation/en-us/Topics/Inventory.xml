@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Inventory</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Inventory</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Inventory.prg is a small inventory form. A user can enter a barcode (by hand or by scanning if a keyboard scanner is attached) and specify a quantity. The num pad can be used to add digits to the quantity (mainly to fill the space on the form). Clicking on Save appends the current values to the inventory.txt text file and clears all text boxes.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Here&apos;s what the form looks like in Visual FoxPro® 9.0:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="clip0001.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This is what the same form looks like using Guineu.exe:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="clip0002.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Here&apos;s what the form looks on a PDA:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="clip0003.png" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Here&apos;s what the FoxPro form looks like on Suse Linux 10.0:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="clip0004.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+  </body>
+</topic>

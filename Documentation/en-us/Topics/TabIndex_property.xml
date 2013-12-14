@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">TabIndex Property</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">TabIndex Property</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies the tab order within the current container, page or form.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Control.TabIndex = nValue</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nValue</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the tab order for the control.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: CheckBox | ComboBox | CommandButton | Container | EditBox | Grid | Label | ListBox | PageFrame | Spinner | Textbox</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The initial value for this property is 0. This is different from Visual FoxPro where the property is initialized with an incrementing value in the order of object creation.</text></para>
+  </body>
+</topic>

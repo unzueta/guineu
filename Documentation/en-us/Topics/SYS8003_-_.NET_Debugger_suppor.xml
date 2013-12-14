@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8003) - .NET Debugger support</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8003) - .NET Debugger support</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Enables or disables .NET Debugger support in Guineu.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8000 [,0 | 1] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">0</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Disables .NET Debugger support. This is the default value at startup.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">1</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Enables .NET Debugger support. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string that indicates the current state. If you don&apos;t pass a second parameter, Guineu returns the state without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">.NET Debugger support is only relevant if you call Guineu from a .NET application. You can safely ignore this option, if you are using Guineu.EXE or Guineu.compact.EXE.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When .NET Debugger support is enabled, you can subscribe to events in GuineuInstance that are triggered before and after each line is executed.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Using_the_.NET_Debugger" styleclass="Normal" translate="true">Debugging FoxPro code from .NET</link></para>
+  </body>
+</topic>

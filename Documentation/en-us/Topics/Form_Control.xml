@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Form Control</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Form Control</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Creates a Form.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Forms are implemented using .NET WinForms. Guineu uses Visual WebGUI in ASP.NET applications to implement Forms.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile</text><text styleclass="Normal" style="font-weight:normal;" translate="true">: Forms have a fixed, but device dependent size on mobile devices.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Form_Control_Properties__Metho" styleclass="Normal" style="font-style:normal;" translate="true">Form Control Properties, Methods, and Events</link></para>
+  </body>
+</topic>

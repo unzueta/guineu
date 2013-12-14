@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ScrollBars Property</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ScrollBars Property</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies whether a Form control has a scrollbar.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Control.ScrollBars = nType</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nType</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the type of scrollbars for the control. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">For a </text><text styleclass="Explanation" style="font-weight:bold;" translate="true">Form</text><text styleclass="Explanation" translate="true"> control, the following table lists settings for nType:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table styleclass="Description Table" rowcount="5" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:86px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">nType</text></para>
+        </td>
+        <td style="width:687px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:86px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">0</text></para>
+        </td>
+        <td style="width:687px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">No scrollbar is shown</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:86px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="width:687px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Same as 3. Guineu changes the property value to 3 when you assign this value.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:86px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td style="width:687px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Same as 3. Guineu changes the property value to 3 when you assign this value.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:86px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">3</text></para>
+        </td>
+        <td style="width:687px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Automatically displays a vertical and a horizontal scrollbar when the outermost control is not fully visible.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Form_Control" styleclass="Normal" translate="true">Form</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">With the Form control:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Unlike in Visual FoxPro you can only control both, the vertical and the horizontal, scroll bar together. The size of the scrollable area does not depend on the form client area size, but on the position of the control. The right border of the right-most control defines the extension for the horizontal bar. The bottom border of the bottommost control defines the extension of the vertically scrollable area. Add an invisible control to the Form to adjust the scrollable area.</text></para>
+  </body>
+</topic>

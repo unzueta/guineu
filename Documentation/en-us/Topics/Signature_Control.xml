@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" status="Under Construction" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Signature Control</title>
+  <keywords>
+    <keyword translate="true">Signature Control</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Signature Control</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Creates a control to capture signatures and other minor drawings.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><image src="clip0007.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Courier Fixed" translate="true">Signature</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">A signature control is an area on the screen that is captures any pen activity. The drawing is stored in a proprietary, binary format that can be used to display stored signatures. Signatures can be exported to bitmap files. However, importing a bitmap into the signature control is not possible.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Before you can use the signature control you must make the class available with the </text><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8008_-_Register_base_classe" styleclass="Normal" translate="true">SYS(8008)</link><text styleclass="Normal" translate="true"> function:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">SYS(8008,&quot;Signature&quot;)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows and Mono</text><text styleclass="Normal" style="font-weight:normal;" translate="true">: The signature control is not available. It&apos;s only available on the Windows Mobile platform.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Runtime libraries</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The following DLLs must be available in either the application directory, the system directory or the global assembly cache in order to call this function:</text></para>
+    <para styleclass="Normal"></para>
+    <list id="3" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">OpenNetCF.Windows.Forms.DLL</text></li>
+    </list>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_Control_Properties__" styleclass="Normal" translate="true">Signature Control Properties, Methods, and Events</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_sample" styleclass="Normal" translate="true">Signature sample</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8008_-_Register_base_classe" styleclass="Normal" translate="true">SYS(8008) - Register base classes</link></para>
+  </body>
+</topic>

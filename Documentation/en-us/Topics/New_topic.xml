@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="ChrisAdmin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">New topic</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">New topic</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Notes for the Developing with Guineu part (Mobile development)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Installation in detail, partly repeat</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">creating a small application</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">exchanging data</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">installation on mobile devices</text></para>
+  </body>
+</topic>

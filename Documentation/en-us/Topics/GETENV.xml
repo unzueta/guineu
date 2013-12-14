@@ -1,0 +1,22 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">GETENV()</title>
+  <keywords>
+    <keyword translate="true">GETENV()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">GETENV()</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns the value of a environment variable</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">GETENV( cVaiableName )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">cVariableName</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the name of the environment variable that is returned.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Returns</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The content of the specified environment variable. If the variable doesn&apos;t exist, an empty string is returned.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile:</text><text styleclass="Normal" translate="true"> The return value is always the empty string, because the Compact Framework does not have support for environment variables.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

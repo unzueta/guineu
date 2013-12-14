@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="ChrisAdmin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Installation on PDAs</title>
+  <keywords>
+    <keyword translate="true">Installation on PDAs</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Installation on PDAs</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Prerequisites</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You need the .NET Compact Framework 2.0. If you device comes without the framework pre-installed, you can download the current version:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.microsoft.com/downloads/details.aspx?familyid=AEA55F2F-07B5-4A8C-8A44-B4E1B196D5C0</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Connect your PDA to the computer and run the setup. Follow all instructions. ActiveSync should deploy the Compact Framework automatically.</text></para>
+    <para styleclass="Normal"></para>
+    <para><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">If you don&apos;t want to connect you PDA, you can manually copy the installation files. Once you completed the installation they become available in </text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">C:\Program Files\Microsoft.NET\SDK\CompactFramework\v2.0\WindowsCE\wce400</text><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true"> for PocketPC 2003 and in </text><text style="font-family:&apos;Courier New&apos;; font-size:12pt; color:#000000;" translate="true">C:\Program Files\Microsoft.NET\SDK\CompactFramework\v2.0\WindowsCE\wce500</text><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true"> for</text><text styleclass="Normal" translate="true"> Windows Mobile 5.0. Within this directory you have to pick the correct folder depending on the CPU in your device. Copy the CAB file to your PDA and run it. This installs the Compact Framework on your device.</text></para>
+    <para></para>
+    <para><text styleclass="Normal" translate="true">You only need to install the Compact Framework once.</text></para>
+  </body>
+</topic>

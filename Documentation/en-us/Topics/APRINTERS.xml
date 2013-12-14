@@ -1,0 +1,61 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">APRINTERS()</title>
+  <keywords>
+    <keyword translate="true">APRINTERS()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">APRINTERS()</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns information about installed printers. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">APRINTERS(ArrayName [, nValue])</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">nValue</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies which information should be returned.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="4" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; font-style:italic;" translate="true">nValue</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold; font-style:italic;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal; font-style:normal;" translate="true">0</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a two-column array with printer name and port name.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a five-column array</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:80px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td style="width:775px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">Specific to Guineu. Returns a single column array with just the printer name.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows Management Instrumentation is required for nValue being 0 and 1. Accessing printer information via WMI is significantly slower than using other means. If you only need the printer name it&apos;s therefore recommended to use a nValue of 2 to limit the result to just the printer name. This option doesn&apos;t go through WMI and is therefore much faster.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile:</text><text styleclass="Normal" translate="true"> The return value is always 0, because the Compact Framework does not have support for printers. The array remains unchanged.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Mono:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> As Mono doesn&apos;t support Windows Management Instrumentation, you must use a nValue of 2 on Mono.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

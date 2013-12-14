@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Image Control</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Image Control</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Adds a picture to a form.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Pictures are implemented using .NET WinForm Controls.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile</text><text styleclass="Normal" style="font-weight:normal;" translate="true">: Images do not support transparency the same way they do on the desktop. Transparent pixels are filled with the background color of the form regardless of any control located behind the image.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Image_Control_Properties__Meth" styleclass="Normal" translate="true">Image Control Properties, Methods, and Events</link></para>
+  </body>
+</topic>

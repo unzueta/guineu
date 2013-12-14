@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Functions</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Functions</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">A</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="ADDBS" styleclass="Topic List" translate="true">ADDBS()</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="ADIR" styleclass="Topic List" translate="true">ADIR()</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="APRINTERS" styleclass="Topic List" translate="true">APRINTERS()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">C</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="CURDIR" styleclass="Topic List" translate="true">CURDIR()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">F</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="FULLPATH" styleclass="Topic List" translate="true">FULLPATH()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">G</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="GETENV" styleclass="Topic List" translate="true">GETENV()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">O</text></para>
+    <para styleclass="Explanation"><link displaytype="text" defaultstyle="true" type="topiclink" href="OS" styleclass="Explanation" translate="true">OS()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">P</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="PARAMETERS" styleclass="Topic List" translate="true">PARAMETERS()</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">S</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRTOFILE" styleclass="Topic List" translate="true">STRTOFILE()</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS1079" styleclass="Topic List" translate="true">SYS(1079) - Diagnostic crash</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8000_-_Unicode_support" styleclass="Topic List" translate="true">SYS(8000) - Unicode support</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8001_-_Path_handling" styleclass="Topic List" translate="true">SYS(8001) - Path handling</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8002_-_Ignore_unknown_token" styleclass="Topic List" translate="true">SYS(8002) - Ignore unknown tokens</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8003_-_.NET_Debugger_suppor" styleclass="Topic List" translate="true">SYS(8003) - .NET Debugger support</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8004_-_Switch_SPT_engine" styleclass="Topic List" translate="true">SYS(8004) - Switch SPT engine</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8005_-_Microsoft_SQL_Server" styleclass="Topic List" translate="true">SYS(8005) - Microsoft SQL Server Compact Edition support</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8006_-_High_resolution_supp" styleclass="Topic List" translate="true">SYS(8006) - High resolution support</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8007_-_Make_a_phone_call" styleclass="Topic List" translate="true">SYS(8007) - Make a phone call</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8008_-_Register_base_classe" styleclass="Topic List" translate="true">SYS(8008) - Register base classes</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8009_-_HTTP_data_transfer" styleclass="Topic List" translate="true">SYS(8009) - HTTP data transfer</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8010_-_FTP_data_transfer" styleclass="Topic List" translate="true">SYS(8010) - FTP data transfer</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8011_-_Support_options" styleclass="Topic List" translate="true">SYS(8011) - Support options</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8013_-_Change_system_time" styleclass="Topic List" translate="true">SYS(8013) - Change system time</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8014_-_Configure_control_be" styleclass="Topic List" translate="true">SYS(8014) - Configure control behavior</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8015_-_Send_Emails_via_SMTP" styleclass="Topic List" translate="true">SYS(8015) - Send Emails via SMTP</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYSMETRIC" styleclass="Topic List" translate="true">SYSMETRIC() </link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">T</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="TIME" styleclass="Topic List" translate="true">TIME()</link></para>
+  </body>
+</topic>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED375ADD-F976-42EE-80AB-7CC1ED792214}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guineu.Desktop.UnitTests</RootNamespace>
+    <AssemblyName>Guineu.Desktop.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gizmox.WebGUI.Adapters.AspNet">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Adapters.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Adapters.WinForms">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Adapters.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Client">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Common.Design">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Common.Design.DLL</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Design">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Forms.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Forms.Help">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Forms.Help.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Installers.Templates">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Installers.Templates.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Installers.Toolbox">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Installers.Toolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Reporting">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Server">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Gizmox.WebGUI.Themes.Vista">
+      <HintPath>..\..\..\Guineu.Runtime.Desktop\References\Gizmox.WebGUI.Themes.Vista.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunFxpFiles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Guineu.Runtime.Desktop\Guineu.Runtime.Desktop.csproj">
+      <Project>{07D04D39-55DD-4DB1-800F-E066713C9A03}</Project>
+      <Name>Guineu.Runtime.Desktop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Code\AssignArrayElementToValueProperty.FXP" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

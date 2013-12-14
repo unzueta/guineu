@@ -1,0 +1,57 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8005) - Microsoft SQL Server Compact Edition support</title>
+  <keywords>
+    <keyword translate="true">Microsoft SQL Server Compact Edition</keyword>
+    <keyword translate="true">SYS(8005)</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8005) - Microsoft SQL Server Compact Edition support</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides additional support for the Microsoft SQL Server Compact Edition that have no native counterparts in the language and cannot be accessed through SQLEXEC()</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8005, cCommand, cConnectionString )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cCommand</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies one of the commands from the list. All commands are case insensitive, but cannot be abbreviated:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="3" colcount="2" style="width:auto; cell-padding:4px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; cell-border-width:0px; border-color:#cc99ff; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:147px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Command</text></para>
+        </td>
+        <td style="width:547px; background-color:#cc99ff;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Update</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Updates the database to the current version of the database engine. If the database already is at the current version, SYS(3005) returns immediately. </text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Create</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Creates a new, empty database with the name speciefied in the connection string.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cConnectionString</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the location of the database as well as additional options. A basic connection string requires the</text><text styleclass="Courier Fixed" translate="true"> Data Source</text><text styleclass="Explanation" translate="true"> setting:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Courier Fixed" translate="true">&quot;Data Source=Northwind.sdf&quot;</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">On mobile devices you should specify the full path to the database, since many mobile devices do not support current directories. While Guineu simulates those for regular xBase statements, Guineu does not alter any connection string to adjust path names.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a string indicating the name of the current engine. If you don&apos;t pass a second parameter, Guineu returns the state without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8004_-_Switch_SPT_engine" styleclass="Normal" translate="true">SYS(8004) - Switch SPT engine</link></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

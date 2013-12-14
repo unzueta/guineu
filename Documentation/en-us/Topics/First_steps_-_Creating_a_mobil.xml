@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="ChrisAdmin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Mobile development</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Mobile development</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This Quick Start section guides you through the steps of creating your first mobile application. At the beginning every of the following sections there is a checkbox list that you can get through if you don&apos;t want to read the entire section.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Requirements</text></para>
+    <list id="75" type="ul" listtype="bullet" formatstring="&#113;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true"> Install Guineu</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true"> Install the Compact Framework</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Mobile development requires one more step over desktop development with Guineu. You have to install the Microsoft.NET Compact Framework on your development machine. Since Guineu compiles against mobile libraries Guineu needs them during compilation.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">If you have the Compact Framework on your machine, you should have the following directory:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">C:\Program Files\Microsoft.NET\SDK\CompactFramework\v2.0\WindowsCE</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The name of the program files directory might be different on your machine depending on the operating system language. If you don’t have the directory, download the Compact Framework from</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.microsoft.com/downloads/details.aspx?familyid=AEA55F2F-07B5-4A8C-8A44-B4E1B196D5C0</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Install it following the instructions on the screen. While it is possible to write PRGs, compile them and copy them onto a mobile device, this is likely not how you want to develop your applications.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Installing and configuring the device emulator</text></para>
+    <list id="75" type="ul" listtype="bullet" formatstring="&#113;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Wingdings; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true"> Install the device emulator</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true"> Configure the emulator</text></li>
+      <li styleclass="Normal"><text styleclass="Normal" translate="true"> Install the .NET Compact Framework</text></li>
+    </list>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">After you created an EXE you can copy it onto your mobile device to test it. However, Microsoft’s Device Emulator makes this task much easier. There are two ways to get the Microsoft Device Emulator on your computer.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The Device Emulator is already installed on your machine if you have Visual Studio 2005 Standard or higher, or if you have Visual Studio 2008 Professional and higher, then. You can use the Microsoft Download page to obtain updates and new operating system images.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">If you don’t have Visual Studio, you can still install the Device Emulator. However, it’s not as straight forward and you have fewer choices of operating system images.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 1</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">If you don’t happen to have the Virtual Machine Network Driver for Microsoft Device Emulator installed on your machine, you need to install Microsoft Virtual PC 2007:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://go.microsoft.com/fwlink/?linkid=46859</link><text styleclass="Normal" translate="true">&#32;</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You can install Virtual PC 2007 inside a VMWare Workstation instance, but most likely you cannot install Virtual PC inside Virtual PC.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 2</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Download the Microsoft Device Emulator 3.0 Standalone release</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.microsoft.com/downloads/details.aspx?familyid=A6F6ADAF-12E3-4B2F-A394-356E2C2FB114</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 3</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Install the Device Emulator by executing vs_emulator.exe and following the setup instructions. The setup doesn’t create a short cut to the emulator. When you want one on your desktop or in the program menu, open the folder</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">C:\Program Files\Microsoft Device Emulator\1.0</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">And create a shortcut to dvcemumanager.exe. Don’t worry about the version number in the directory name. Microsoft hasn’t changed the number in the past three versions, nor do they install multiple device managers.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 4</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">For Windows Mobile 5.0:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Download the Microsoft Windows Mobile 5.0 image for Device Emulator. You need to download EFP.MSI (57.0 MB) from the following web site</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.microsoft.com/downloads/details.aspx?FamilyId=C62D54A5-183A-4A1E-A7E2-CC500ED1F19A</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">For Windows Mobile 6.1:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Download the Windows Mobile 6.1 Emulator Images. You can choose either the Professional version (with touch screen) or the Standard edition (without touch screen):</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.microsoft.com/downloads/details.aspx?familyid=3D6F581E-C093-4B15-AB0CA2CE5BFFDB47</link></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 5</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">For Windows Mobile 5.0:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Execute the EFP.MSI setup. When you are done, you can run the emulated devices from Start &gt; All Programs &gt; Microsoft Windows Mobile 5.0 MSFP Emulator Images. The first time you have to pick one of the Coldboot files.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">For Windows Mobile 6.1:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Execute the Windows Mobile 6.1 Professional Images (USA).MSI setup. The 6.1 setup does not properly create links to the emulator images. If you don’t see Start &gt; All Programs &gt; Windows Mobile 6 SDK &gt; Standalone Emulator Images &gt; US English, then run the setup a second time. Choose the repair option and ignore any error message you might get. If this still doesn’t work, call DeviceEmulator.EXE passing the full path and name of the bin files located in</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">C:\Program Files\Windows Mobile 6 SDK\PocketPC\DeviceemulationV610\0409</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The name of the program folder can be different on non-English versions of Windows.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 6</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Run the emulator with one of the images. Use File &gt; Configure… to change the configuration of your simulated PDA. Foremost you want to specify your development directory as a Shared Folder. This maps the folder as a Storage Card on your PDA.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 7</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows Mobile 5.0 ships with the .NET Compact Framework 1.1 preinstalled. For Guineu, however, you need the .NET CF 2.0 version. Open the following folder</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">C:\Program Files\Microsoft.NET\SDK\CompactFramework\v2.0\WindowsCE\wce500\armv4i</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The name for program files might depend on your operating system’s language. Copy the file</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">armv4i\NETCFv2.wm.armv4i.cab</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">into the directory that you specified in step 6 as your simulated storage card. On your simulated PDA open Start &gt; Programs &gt; File Explorer. Tap on the storage card symbol. You should see the file you just copied there on the desktop machine. Tap on the setup and follow the instructions.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">On Windows Mobile 6.1Microsoft has preinstalled .NET CF 2.0. You can skip step 7.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 8</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">To verify that the setup worked, use File Explorer to locate \Windows and tap on cgacutil.exe. You should receive a message box stating the version that you have installed on your machine.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 9</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Use GuineuIDE to compile your project into a Windows Mobile application. For testing purposes you can use the Vocabulary.pjx file that is located in the Vocabulary folder of your Guineu folder. Activate the project and select Guineu &gt; Build &gt; Windows Mobile Application. You should end up with an EXE file in the project folder that has the same name as the PJX file. In this case it would be Vocabulary.EXE.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">Step 10</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Open the Storage Card in File Explorer on the PDA. Locate your project directory and click on the application. You can tell the application from the little icon in front of it as file extensions are hidden on the PDA.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When you close the emulator you are given the choice of saving the state. This produces a DESS file in the Device Emulator directory. By default for Windows Mobile 5.0 the image is stored in “C:\Program Files\Microsoft Windows Mobile 5.0 MSFP Emulator Images”. On Windows Mobile 6.0 the DESS file is located in </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">You can copy the DESS file into your project folder and name it like the project. If the project is Sample.PJX, name the DESS file Sample.DESS. When GuineuIDE detects a DESS file with the same name as the PJX file, it automatically opens Device Emulator with this Stored State file.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Assuming that you configured the Shared Folder to be your project directory, this allows you to quickly debug your application on the PDA. DBF files can be opened in VFP and on the PDA at the same time. Only when you build a new Windows Mobile EXE, you need to terminate the EXE on the PDA. You don’t have to shut down the Device Emulator, though.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">How to continue </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This section only provided a brief walk-through of creating a simplistic application. If you are interested in developing for Windows Mobile, make sure you read the section on </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Windows_Mobile_Application" styleclass="Normal" translate="true">mobile development</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

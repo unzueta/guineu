@@ -1,0 +1,20 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ADDBS()</title>
+  <keywords>
+    <keyword translate="true">ADDBS()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ADDBS()</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ADDBS(cPath)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cPath</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the path for a directory that may have a backslash at the end.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Returns</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns the path terminated with a backslash. If the path was already terminated in this way, the value is returned unchanged.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ADDBS() adds the platform specific folder separator. On Windows platforms this is the backslash (\). On Unix based systems this is the forward slash (/).</text></para>
+  </body>
+</topic>

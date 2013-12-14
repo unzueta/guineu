@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">EXIT command</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">EXIT command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns control to the first statement following the loop. The loop is terminated prematurely.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">EXIT</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The EXIT command can be located anywhere inside a loop. When used inside nested loops, the command applies to the innermost looping statement only.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Execution control is returned to the statement following the loop block.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">FOR...ENDFOR Command</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SCAN...ENDSCAN Command</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">DO WHILE...ENDDO Command</text></para>
+  </body>
+</topic>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8006) - High resolution support</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8006) - High resolution support</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides support for high resolution screens when forms have been designed for a lower resolution. All Guineu specific coordinates are multiplied with the factor before passing them on to the operating system.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8006 [,nScale] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nScale</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the new scale factor. This can be any number including fractions. The default value is 1.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string with the current scale factor. If you don&apos;t pass a second parameter, Guineu returns the scale factor without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows CE versions prior to Windows 2003 SE supported only one fixed resolution which usually was 240x320. Later versions offer higher resolution with Windows Mobile 6.1 supporting up to 800x480.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">EXE files on compact devices contain a flag which indicates wether an application was written for QVGA (240x320) or a higher resolution (480x640 or higher). This HI_RES flag is not set for EXEs compiled by GuineuIDE. Guineu.compact.EXE, on the other hand, has the HI_RES flag set.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When an EXE specifies this flag, the entire area on the display is available in its highest resolution. Applications have to resize forms and controls accordingly. As with large fonts on the desktop machine, the number of pixels per point for fonts changes on high resolution displays. That means, a nine point is displayed with twice as many pixels on a VGA display compared to a QVGA display. When you create high resolution applications, you need to take this into account. High resolution applications are currently only possible when using Guineu.Compact.EXE or patching the generated EXE manually.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">EXE that do not specify the HI_RES flag, as all GuineuIDE compiled applications do, do not notice that they are running on a high resolution device. The screen size reported by SYSMETRIC() is 240x320. Every pixel drawn by such an application is automatically quadrupled and drawn as a 2x2 pixel square. Consequently, the application still covers the entire display. Only graphics and some controls are now shown as crisp as with high resolution applications.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Under normal conditions, you wouldn&apos;t need to worry about this. Any application created with GuineuIDE needs tohave forms sized for 240x320. They show up the same on every Windows Mobile device no matter what the resoolution is.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Unfortunately, though, some PDAs (mainly HP devices) seem to ignore the absence of the HI_RES flag. They assume that every application is high resolution aware. As a result, Guineu forms only occupy the upper left quarter of the screen and most captions are unreadable.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">As a work around for such devices, you can use SYS(8006) to specify a scale factor. Every pixel in Guineu controls are automatically multiplied by this factor. So if a button is 100 pixels wide and 30 pixels high, it&apos;s drawn on high resolution devices with 200 pixels by 60 pixel. In other words, Guineu performs the scaling that the operating system would otherwise do. To achieve the optimium result, use the following code at the beginning of your application:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">LOCAL lnScale</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">lnScale = SYSMETRIC(2)/320</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS(8006, m.lnScale)</text></para>
+    <para styleclass="Code Example"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This feature is optional. If you have a device that treats Guineu applications as high-resolution aware, you can also create forms with the device&apos;s resolution. Just make sure that the font size is adjusted apopriately.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The new scale factor applies to any pixel oriented operation that is executed afterwards. Existing forms and controls are not resized.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SYS(8006) is only available with the Microsoft Compact Framework. The function is ignored on any platform other than Windows Mobile.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYSMETRIC" styleclass="Normal" translate="true">SYSMETRIC()</link></para>
+  </body>
+</topic>

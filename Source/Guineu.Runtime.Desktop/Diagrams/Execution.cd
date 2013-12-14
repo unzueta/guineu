@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Guineu.GuineuInstance">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Guineu.cs</FileName>
+      <HashCode>EAQAAAAAAgAEAAECQAAAAUAACAAAAIAAAEAAEAAMQAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Guineu.ExecutionPath">
+    <Position X="3.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Guineu.cs</FileName>
+      <HashCode>AAAAAAAAAUAAAQAAAAAACAAAggAQAQAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Stack" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Guineu.StackLevel">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Guineu.cs</FileName>
+      <HashCode>AACEQAAAAAAEAAAAAAAAAAAAAhBAAAAAAIAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Guineu.CallingContext">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Guineu.cs</FileName>
+      <HashCode>AAAAAQIAAgAEAgRAEAAAAAAAhABQAAAACAAAAAEACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Guineu.ICommand" Collapsed="true">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Commands.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

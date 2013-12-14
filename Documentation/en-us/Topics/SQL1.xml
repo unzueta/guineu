@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SQL1</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SQL1</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This sample works only on desktop machines with a standard installation of MS SQL Server®. The sample connects to the MS SQL Northwind database and lists all customers with their IDs. It demonstrates how you can access data in the current version of Guineu.</text></para>
+  </body>
+</topic>

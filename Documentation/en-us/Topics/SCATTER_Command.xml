@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SCATTER Command</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SCATTER Command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Copies data from the current record into memory variables or an object.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SCATTER [MEMO] [NAME oRec | MEMVAR]</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">MEMO</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Includes all memo and blob fields when reading the record. By default, neither variables nor properties are generated for memo and blob fields. Including memo fields can potentially result in a long during operation especially when performed across a wireless network or a dial-up VPN connection.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">NAME oRec</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Creates a new object with the same name of properties as there are fields in the current table or cursor. For every field there&apos;s one corresponding property with the same name. Properties are filled with the values from the record.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">MEMVAR</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Fills a variable of the same name as the field with the corresponding value from the current record. If the variable doesn&apos;t already exist before SCATTER is called, a new local variable is created. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="GATHER_Command" styleclass="Normal" translate="true">GATHER Command</link></para>
+  </body>
+</topic>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Under Construction" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Change log</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Change log</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">December 2013</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Released into open source</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Februrary 2013</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Parent property for timer class</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added NODEFAULT</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Member array support</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added ControlBox property</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Completed the EXIT command</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added KeyPress event</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">May 2012</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">CTOT() function</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented &quot;-&quot; operator for strings</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SET POINT and SET(&quot;POINT&quot;)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">December 2011</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented native .NET objects with CREATEOBJECT() and SET CLASSLIB TO</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">OS() function</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">BackColor and ForeColor for Headers</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented PRIVATE and PARAMETERS commands</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Passing parameters by reference implemented</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">PARAMETERS() function.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">November 2011</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented STRCONV</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">December 2009 - October 2011</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added support for SQL server</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Restructured the UI interface</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Silverlight version</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Restructured projects, names, etc.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added plug-in support for third-party vendors</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added InterOp-Toolkit version</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added VFX Silverswitch version for dFPUG</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">November 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SelStart and SelLength</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">September 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SET PROCEDURE TO, SET CLASSLIB TO</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Timer class</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added all scope clauses NEXT n, ALL, REST, RECORD</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added filter clauses FOR condition and WHILE condition. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">DELETE does now support all clauses</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8015) for sending e-mails from the device</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8104) to control various behaviors</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">August 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented LOOP</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added support for MEMO and MEMVAR to SCATTER and GATHER</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">July 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Enhanced the desktop UI engine</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8013)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(1079)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">June 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SET DECIMALS</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added ADEL()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added RowSource and RowSourceType</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8012)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SAVE command</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Data engine does now support all data types for reading and writing</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">May 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8011)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">April 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8010)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">DELETE FILE implemented</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">January 2009</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Init event can receive parameters</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Add ScrollBars property</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8009)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Fixed several bugs. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added several enhancements in the mobile engine to the desktop and web engine</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">November 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SET NOTIFY and TabIndex property</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Add a signature class</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYS(8008)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented PictureVal, PenWidth and Signature</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">October 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented BOF()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Write support completed except variants, float and double. Memo fields are now supported.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">September 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ReadOnly and ScrollBar</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SCATTER and GATHER</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented CMONTH</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">August 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented STORE</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented RESTORE FROM</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">July 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYS(8007)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">June 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented DELETE and DELETED()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented GridLineColor property.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Load event</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Grid, Column, Header and Spinner controls. The grid controls currently only work on the PDA.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYSMETRIC()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added SYS(8006)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">May 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented EOF(), the Refresh method and the DisplayValue property.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented TIME() and the Activate event for pages.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ListIndex</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented the WordWrap property for buttons and GETPEM()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ListCount and ActivePage properties.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented DTOC(), CTOD().</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Enhanced MESSAGEBOX().</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added several enhancements in index handling and data type support</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">April 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added support for Visual WebGUI</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">March 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented AERROR()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">New function SYS(2005) to control the Microsoft SQL Server Compact Engine. Support for version 3.5 has been added.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">February 2008</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The error handler now displays a dialog with error details.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">December 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Error handling improved</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Various field types including VARCHAR and VARBINARY have been implemented or enhanced.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">November 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SET BELL. ?? and ? now respect the current setting.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ERASE, COPY FILE</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added FontName, FontSize, FontBold, FontItalic, FontUnderline and FontStrikeThru. Please note that Guineu ses GDI+ and therefore might print text slightly different than Microsoft Visual FoxPro.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added various output formats for GuineuIDE.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This change log gives a brief overview of what changed. You can find a more detailed list in the Guineu release blog (</text><link displaytype="text" defaultstyle="true" type="weblink" href="http://guineu-blog.blogspot.com/" target="_blank" styleclass="Normal" translate="true">http://guineu-blog.blogspot.com</link><text styleclass="Normal" translate="true">)</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">October 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented RUN</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added new GuineuIDE.EXE for the Visual FoxPro development IDE. GuineuIDE allows to compile a project into an EXE. Forms and class libraries are converted to PRGs. </text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added new Vocabulary sample. This sample runs on the desktop and a PDA. It can be used to learn languages, etc.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SET COVERAGE TO, ZAP</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SEEK(), SELECT(), CLOSE DATABASES [ALL]</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented LOCATE, CONTINUE</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented FOUND(), USED(), SET STEP ON, SYS(2015)</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Valid and When.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Picture property on forms.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented LostFocus, GotFocus and SetFocus</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">September 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Editbox</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented GETENV()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SET FILTER TO</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">August 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SCAN FOR and USE...ORDER</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented read access to currency, date, boolean and integer fields.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented FCOUNT(), FIELD()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SKIP</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented GOTO, GO TOP and GO BOTTOM.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented FONTMETRIC().</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SET ORDER TO implemented for DBF files.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SEEK implemented for DBF files.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">July 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">REPLACE and APPEND now work with DBF files. REPLACE is currently limited to character fields that are not indexed.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented VERSION(), ALEN()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added a new option to APRINTERS().</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented operators AND and OR.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented DO CASE...CASE...OTHERWISE...ENDCASE</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ERROR command.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented RAT(), ROUND(), MINUTE(), IIF(), SYS(2), SEC(), PAYMENT(), ISALPHA(), SOUNDEX(), RATC(), LOG(), ICASE(), MAX(), STUFF(), SYS(0), VAL(), ISLOWER(), SQRT(), SYS(3), INLIST(), DRIVETYPE(), RAND(), ISDIGIT(), SIGN(), APRINTERS(), FV(), HOUR(), LOG10(), PV(), ISUPPER(), PADC(), PADL(), PADR(), OCCURS(), SYS(1), EXP()</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">June 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented VARTYPE(), ISNULL(). JUSTDRIVE(), TAN(), GETWORDCOUNT(), GETWORDNUM(), NVL(), BITAND(), JUSTEXT(), RTOD(), DAY(), JUSTSTEM(), FORCEEXT(), BITOR(), JUSTFNAME(), FORCEEXT(), BITOR(), JUSTFNAME(), YEAR(), GOMONTH(), FORCEPATH(), FLOOR(), DISPLAYPATH(), QUARTER(), COS(), BITCLEAR(), MONTH(), BITLSHIFT(), BITRSHIFT(), BITNOT(), BITXOR(), DTOR(), PI(), CEILING(), BITTEST(), SIN(), BITSET(), DIRECTORY(), DEFAULTEXT()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Page and Pageframe implemented.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">BackColor and ForeColor implemented</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Enabled and Visible</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ControlSource in read only mode available</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented READ EVENTS, CLEAR EVENTS, CLEAR</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented STRTRAN(), CHRTRAN() and EMPTY().</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Picture and DownPicture for CommandButton on the desktop</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Listbox and Combobox control with Additem, RemoveItem, Clear and InteractiveChange event.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ALINES().</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented EVALUATE() for variable and field names.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented APPEND, REPLACE</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SELECT().</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Release method to forms.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented ADIR()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented RECNO()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added Image control.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">EXE prompts for FXP if no file has been passed and default FXP doesn&apos;t exist.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYS(8004) to switch between SPT engines. Guineu supports two engines in the desktop version: ODBC and Microsoft SQL Server 2005 Compact.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SQLSTRINGCONNECT(), SQLDISCONNECT() and SQLEXEC() for the PDA with Microsoft SQL Server Mobile.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SET EXACT</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">New function SYS(8003) to enable .NET Debugging support. Added delegate based support for .NET debugger.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYS(2000), DIMENSION</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">May 2007</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented DTOS(), RGB()</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented Container class</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented DATE(), DATETIME()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented RECCOUNT()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">New function SYS(8002) to handle unknown tokens.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">DO supports the IN clause now.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">FOR supports STEP and non-integer loop counter.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented FOPEN(), FCLOSE(), FREAD(), FWRITE(), FERROR(), FCREATE(), FSEEK(), FGETS(), FFLUSH(), FPUTS(), FEOF(), FCHSIZE(), FDATE(), FTIME()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented USE.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented LEFT(), REPLICATE(), CREATE CURSOR</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented SYS(16), ADDBS()</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented STREXTRACT(), PROGRAM(), JUSTPATH().</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">FULLPATH() implemented.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">New function SYS(8001) to handle path casing.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SET DELETED, SET MEMOWIDTH, SET SAFETY, SET STATUS, SET STATUS BAR, SET TALK implemented</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">NEWOBJECT() implemented</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SET PATH TO, SET EXLUSIVE and SET SYSFORMATS implemented.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">External PRGs can now be called.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented a basic cursor engine.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">ALIAS() implemented.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SCAN...ENDSCAN implemented.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">SQL pass-though is now available on desktops. Implemented are SQLSTRINGCONNECT(), SQLDISCONNECT() and SQLEXEC() . Because the Compact Framework has no ODBC support, these functions are not available on mobile devices.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">LOWER() implemented. </text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">$ operator working.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added the WinForm sample to show the interaction between .NET and Guineu.</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">UPPER() is now implemented.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Added support for arrays. LOCAL can create arrays.</text></para>
+  </body>
+</topic>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Speed1</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Speed1</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Measures the raw speed of loops. Since this sample doesn&apos;t check SECONDS() on every iteration, it&apos;s a pretty good estimate on the performance of numeric values and loops on various platforms. The sample prints the total time for 5 million iterations.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">2,2529999999997 sec. for 5,000,000 iterations</text></para>
+    <para styleclass="Code Example"></para>
+  </body>
+</topic>

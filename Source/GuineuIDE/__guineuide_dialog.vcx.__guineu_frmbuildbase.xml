@@ -1,0 +1,639 @@
+<?xml version = "1.0" encoding="Windows-1252" standalone="yes"?>
+<VFPData>
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="class" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="platform">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="uniqueid">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="class">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="classloc">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="baseclass">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="objname">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="parent">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="properties">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="protected">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="methods">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ole2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved1">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved2">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved3">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved4">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved5">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved6">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved7">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="reserved8">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="user">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="nrecno">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="10"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2A60ISB4I</uniqueid>
+		<class><![CDATA[form]]></class>
+		<classloc/>
+		<baseclass><![CDATA[form]]></baseclass>
+		<objname><![CDATA[__guineu_frmbuildbase]]></objname>
+		<parent/>
+		<properties><![CDATA[Height = 374
+Width = 385
+DoCreate = .T.
+AutoCenter = .T.
+Caption = "Build - Parameter "
+ControlBox = .F.
+BindControls = .F.
+oparameter = .NULL.
+nexitstate = -1
+Name = "__guineu_frmbuildbase"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE closeform
+*====================================================================
+*  
+*====================================================================
+Lparameters tcCloseType
+Do Case 
+Case m.tcCloseType = "BUILD" 
+	This.nExitstate = 1 
+	
+Case m.tcCloseType = "CANCEL" 
+	This.nExitstate = 0 
+EndCase 
+This.Hide() 
+Return DoDefault() 
+ENDPROC
+PROCEDURE Init
+*====================================================================
+* (PS) ohne Parameter kein Formular 
+*====================================================================
+Lparameters toParameter
+
+Local llOK 
+m.llOK = Vartype( m.toParameter ) = "O" 
+
+If m.llOK 
+	m.llOK = Not IsNull( m.toParameter ) 
+EndIf 
+
+If m.llOK 
+	This.oParameter = m.toParameter 
+	This.BindControls = .T. 
+EndIf 
+
+Return m.llOK 
+
+ENDPROC
+]]></methods>
+		<ole/>
+		<ole2/>
+		<reserved1><![CDATA[Class]]></reserved1>
+		<reserved2><![CDATA[12]]></reserved2>
+		<reserved3><![CDATA[oparameter
+nexitstate 0 = Cancel; 1 = Build; <0 = Error 
+*closeform 
+]]></reserved3>
+		<reserved4/>
+		<reserved5/>
+		<reserved6><![CDATA[Pixels]]></reserved6>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>21</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AH0M2G4T</uniqueid>
+		<class><![CDATA[__guineu_bascommandbutton]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[__guineu_bascommandbutton1]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 336
+Left = 192
+Caption = "Buil\<d"
+Name = "__guineu_bascommandbutton1"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+*====================================================================
+* 
+*====================================================================
+Thisform.CloseForm( "BUILD" ) 
+ENDPROC
+]]></methods>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>22</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AH0M2G4U</uniqueid>
+		<class><![CDATA[__guineu_bascommandbutton]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[__guineu_bascommandbutton2]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 336
+Left = 288
+Cancel = .T.
+Caption = "\<Cancel"
+Name = "__guineu_bascommandbutton2"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+*====================================================================
+* 
+*====================================================================
+Thisform.CloseForm( "CANCEL" ) 
+ENDPROC
+]]></methods>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>23</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AH0NJA4M</uniqueid>
+		<class><![CDATA[__guineu_bascheckbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[checkbox]]></baseclass>
+		<objname><![CDATA[chklDDir]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 90
+Left = 12
+Height = 17
+Width = 252
+Alignment = 0
+Caption = "Create Distribution directory"
+ControlSource = "Thisform.oParameter.lDDir"
+Name = "chklDDir"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE InteractiveChange
+Thisform.oParameter.lDDir = This.Value 
+This.Parent.cmdcDDir.Refresh() 
+ENDPROC
+]]></methods>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>28</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2A60ITHI4</uniqueid>
+		<class><![CDATA[__guineu_bascheckbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[checkbox]]></baseclass>
+		<objname><![CDATA[chklEraseIFile]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 36
+Left = 12
+Height = 17
+Width = 252
+Alignment = 0
+Caption = "Erase intermediate files"
+ControlSource = "Thisform.oParameter.lEraseIFile"
+Name = "chklEraseIFile"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>25</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2A60ISB4I</uniqueid>
+		<class><![CDATA[__guineu_bascheckbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[checkbox]]></baseclass>
+		<objname><![CDATA[chklShowCError]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 12
+Left = 12
+Height = 17
+Width = 252
+Alignment = 0
+Caption = "Show C# compiler errors"
+ControlSource = "Thisform.oParameter.lShowCError"
+ForeColor = 128,128,128
+Name = "chklShowCError"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>24</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AH0P9ETE</uniqueid>
+		<class><![CDATA[__guineu_bascommandbutton]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[commandbutton]]></baseclass>
+		<objname><![CDATA[cmdcDDir]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Top = 109
+Left = 336
+Height = 23
+Width = 23
+Caption = "..."
+Name = "cmdcDDir"
+]]></properties>
+		<protected/>
+		<methods><![CDATA[PROCEDURE Click
+Local lcNewDir, lcDir 
+m.lcDir = Iif(Directory( Thisform.oParameter.cDDir ),;
+			 Thisform.oParameter.cDDir,;
+			 Thisform.oParameter.cPath)
+			 
+m.lcNewDir = GetDir( m.lcDir )
+
+If not Empty( m.lcNewDir ) 
+	This.Parent.txtcDDir.Value = m.lcNewDir 
+EndIf 
+ENDPROC
+PROCEDURE Refresh
+This.Enabled = Thisform.oParameter.lDDir
+ENDPROC
+]]></methods>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>30</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AJ13C2Y7</uniqueid>
+		<class><![CDATA[__guineu_baslabel]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblCCore]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Caption = "Project name:"
+Height = 17
+Left = 12
+Top = 144
+Width = 252
+Name = "lblCCore"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>32</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>RESERVED</uniqueid>
+		<class><![CDATA[__guineu_baslabel]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[label]]></baseclass>
+		<objname><![CDATA[lblcBuildCMDOutput]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[Caption = "save build command to:"
+Height = 17
+Left = 30
+Top = 61
+Width = 144
+ForeColor = 128,128,128
+Name = "lblcBuildCMDOutput"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>27</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2A60ITHI4</uniqueid>
+		<class><![CDATA[__guineu_bastextbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtcBuildCMDOutput]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[ControlSource = "Thisform.oParameter.cBuildCMDOutput"
+Height = 23
+Left = 180
+ReadOnly = .T.
+Top = 57
+Width = 153
+ForeColor = 128,128,128
+Name = "txtcBuildCMDOutput"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>26</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2AJ13C2Y6</uniqueid>
+		<class><![CDATA[__guineu_bastextbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtcCore]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[ControlSource = "Thisform.oParameter.cCore"
+Height = 23
+Left = 12
+Top = 161
+Width = 321
+Name = "txtcCore"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>31</nrecno>
+	</class>
+	<class>
+		<platform>WINDOWS</platform>
+		<uniqueid>_2A60ITHI4</uniqueid>
+		<class><![CDATA[__guineu_bastextbox]]></class>
+		<classloc><![CDATA[__guineuide_dialog.vcx]]></classloc>
+		<baseclass><![CDATA[textbox]]></baseclass>
+		<objname><![CDATA[txtcDDir]]></objname>
+		<parent><![CDATA[__guineu_frmbuildbase]]></parent>
+		<properties><![CDATA[ControlSource = "Thisform.oParameter.cDDir"
+Height = 23
+Left = 12
+ReadOnly = .T.
+Top = 109
+Width = 321
+Name = "txtcDDir"
+]]></properties>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>29</nrecno>
+	</class>
+	<class>
+		<platform>COMMENT</platform>
+		<uniqueid>RESERVED</uniqueid>
+		<class/>
+		<classloc/>
+		<baseclass/>
+		<objname><![CDATA[__guineu_frmbuildbase]]></objname>
+		<parent/>
+		<properties/>
+		<protected/>
+		<methods/>
+		<ole/>
+		<ole2/>
+		<reserved1/>
+		<reserved2/>
+		<reserved3/>
+		<reserved4/>
+		<reserved5/>
+		<reserved6/>
+		<reserved7/>
+		<reserved8/>
+		<user/>
+		<nrecno>33</nrecno>
+	</class>
+</VFPData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ZAP Command</title>
+  <keywords>
+    <keyword translate="true">ZAP</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ZAP Command</text></para>
+    </header>
+    <para><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">Removes all records from a table or cursor.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ZAP</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When </text><text styleclass="Courier Fixed" translate="true">SET SAFETY</text><text styleclass="Normal" translate="true"> is </text><text styleclass="Courier Fixed" translate="true">ON</text><text styleclass="Normal" translate="true">, the user is prompted whether the table should be truncated.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile:</text><text styleclass="Normal" translate="true"> The Microsoft device emulator does not properly handle changing the file size when the file was originally larger. Therefore the </text><text styleclass="Courier Fixed" translate="true">ZAP</text><text styleclass="Normal" translate="true"> command does not physically change the file size of a table. It does, however, change the record count in the table header. As far as Guineu is concerned, the table is empty afterwards. Microsoft Visual FoxPro will report an error, though, when you open the table with </text><text styleclass="Courier Fixed" translate="true">SET TABLEVALIDATE </text><text styleclass="Normal" translate="true">set to a value different from 0.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">This happens only on a simulated Storage Card. ZAP works properly if you copy your program from the Storage Card into the \Program Files folder and run it from there.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SET_SAFETY" styleclass="Normal" translate="true">SET SAFETY</link></para>
+  </body>
+</topic>

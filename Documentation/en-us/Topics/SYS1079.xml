@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(1079) - Diagnostic crash</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(1079) - Diagnostic crash</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Throws an exception for diagnostic purposes.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 1079 )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Throws a System.Exception exception. This is different from </text><var styleclass="Normal">&lt;%VFP%&gt;</var><text styleclass="Normal" translate="true"> where </text><text styleclass="Courier Fixed" translate="true">SYS(1079)</text><text styleclass="Normal" translate="true"> causes a 0xC0000005 exception.</text></para>
+  </body>
+</topic>

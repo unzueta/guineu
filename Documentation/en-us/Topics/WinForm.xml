@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">WinForm</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">WinForm</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">As a .NET developer you can use the Guineu.runtime.dll assembly in your own managed applications. WinForm is a small sample form written in C# that calls out to an external FXP file. There are two approaches explained:</text></para>
+    <para styleclass="Normal"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="%0:s." levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-left:0px; font-family:Verdana; font-size:11pt;">
+      <li styleclass="Normal" style="margin-left:0px;"><text styleclass="Normal" translate="true">Calling an FXP file (equivalent of DO WinForm.FXP)</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-left:0px;"></para>
+    <list id="1" type="ol" listtype="decimal" formatstring="%0:s." levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="margin-left:0px; font-family:Verdana; font-size:11pt;">
+      <li styleclass="Normal" style="margin-left:0px;"><text styleclass="Normal" translate="true">Calling a function with parameters and dealing with the return value.</text></li>
+    </list>
+    <para styleclass="Normal" style="margin-left:0px;"></para>
+  </body>
+</topic>

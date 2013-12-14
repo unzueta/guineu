@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SET SAFETY Command</title>
+  <keywords>
+    <keyword translate="true">STRTOFILE()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SET SAFETY Command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies whether certain destructive actions display a message dialog asking the user for confirmation</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SET SAFETY ON | OFF</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">ON</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Displays a dialog box before zapping a table, and overwriting a file with </text><text styleclass="Courier Fixed" translate="true">STRTOFILE()</text><text styleclass="Explanation" translate="true">.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">OFF</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Does not display any dialog before performing destructive actions.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">SET SAFETY</text><text styleclass="Normal" translate="true"> is not yet scoped to the current datasession. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="ZAP" styleclass="Normal" translate="true">ZAP</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRTOFILE" styleclass="Normal" translate="true">STRTOFILE()</link></para>
+  </body>
+</topic>

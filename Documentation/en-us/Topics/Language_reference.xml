@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Language Reference</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Language Reference</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu is fully compatible with Microsoft Visual FoxPro® 9.0 SP 2. The following section describe the current state of completion towards this goal as well as additional features in Guineu. The </text><text styleclass="Normal" style="font-weight:bold;" translate="true">Compatibility </text><text styleclass="Normal" translate="true">section of each article lists all platform specific differences and limitations.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Supported_language_features" styleclass="Normal" translate="true">Supported Features</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Commands2" styleclass="Normal" translate="true">Commands</link></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Functions2" styleclass="Normal" translate="true">Functions</link></para>
+  </body>
+</topic>

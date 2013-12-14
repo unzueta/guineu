@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">ADIR()</title>
+  <keywords>
+    <keyword translate="true">ADIR()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">ADIR()</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns information about files in a directory </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">ADIR(ArrayName [, cFileSkeleton [, cAttribute [,nFlag]]])</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">cAttribute</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies which files should be included. Guineu ignores the value &quot;A&quot; to remain compatible with Microsoft Visual FoxPro.</text></para>
+  </body>
+</topic>

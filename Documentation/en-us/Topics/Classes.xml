@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Classes</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Classes</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">All classes support the definition of user defined properties and methods. All container controls support nested objects that can be accessed by name.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><table rowcount="18" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Form</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Form_Control_Properties__Metho" styleclass="Normal" translate="true">Form Control Properties, Methods, and Events</link></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">For differences to VFP refer to </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Form_Control" styleclass="Normal" translate="true">Form Control</link><text styleclass="Normal" translate="true">.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CommandButton</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET controls. The following members are supported:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="41" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Caption. The &quot;\&lt;&quot; escape character for shortcuts is not supported.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Picture (desktop only)</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">DownPicture (desktop only)</text></li>
+          </list>
+          <list id="42" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When() - not supported on mobile devices.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">WordWrap</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Checkbox</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="43" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Value</text></li>
+          </list>
+          <list id="44" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="43" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+          </list>
+          <list id="45" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+          </list>
+          <list id="43" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ReadOnly</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ComboBox</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="46" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Value. Currently, only character values are supported.</text></li>
+          </list>
+          <list id="47" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="46" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+          </list>
+          <list id="48" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">AddItem(). nIndex and nColumn are not supported.</text></li>
+          </list>
+          <list id="46" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RemoveItem()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Clear()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">InteractiveChange()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When() - not supported on mobile devices.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ListCount</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ListIndex</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">DisplayValue</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ReadOnly</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RowSource</text></li>
+          </list>
+          <list id="49" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RowSourceType (supported values: 1)</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Container</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="50" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+          </list>
+          <list id="51" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="52" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ReadOnly</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Custom</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The following members are supported:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="53" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Image</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Image_Control_Properties__Meth" styleclass="Normal" translate="true">Image Control Properties, Methods, and Events</link><text styleclass="Normal" translate="true"> for a list of implemented members</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Label</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="54" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Caption. The &quot;\&lt;&quot; escape character for shortcuts is not supported.</text></li>
+          </list>
+          <list id="55" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="56" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> The caption can be a Unicode string. Since the FXP format doesn&apos;t support Unicode properties, you currently have to use FILETOSTR() to create a Unicode string.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Listbox</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="57" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Value. Currently, only character values are supported.</text></li>
+          </list>
+          <list id="58" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="57" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+          </list>
+          <list id="59" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">AddItem(). nIndex and nColumn are not supported.</text></li>
+          </list>
+          <list id="57" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RemoveItem()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Clear()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">InteractiveChange()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ListCount</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ListIndex</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">DisplayValue</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RowSource</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RowSourceType (supported values: 1)</text></li>
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="KeyPress_event" styleclass="Normal" translate="true">KeyPress()</link><text styleclass="Normal" translate="true">. Only the Enter key is supported.</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Page</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="60" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+          </list>
+          <list id="61" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Caption</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor. Doesn&apos;t affect the tab.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Activate event</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Pageframe</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="62" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+          </list>
+          <list id="63" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ActivePage</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">PageCount</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Windows Mobile 5 and later displays tabs at the bottom rather than the top.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Editbox</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">See </text><link displaytype="text" defaultstyle="true" type="topiclink" href="Editbox_Control_Properties__Ev" styleclass="Normal" translate="true">Editbox Control Properties, Methods, and Events</link><text styleclass="Normal" translate="true"> for a list of implemented members.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> The control supports Unicode. Entering Unicode characters is possible at all times. When the value property is accessed, all characters that are not in the current codepage are converted to question marks.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Textbox</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="64" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Value. Currently, only character values and date values are supported.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ControlSource. Only character values and date values are supported. Modified data is not written back.</text></li>
+          </list>
+          <list id="65" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="66" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+          </list>
+          <list id="67" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ReadOnly</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <list id="68" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="KeyPress_event" styleclass="Normal" translate="true">KeyPress()</link><text styleclass="Normal" translate="true">. Only the Enter key is supported.</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> The control supports Unicode. Entering Unicode characters is possible at all times. When the value property is accessed, all characters that are not in the current codepage are converted to question marks.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Grid</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control in the compact version. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="69" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">RecordSource. Must be an alias.</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ColumnCount</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+          </list>
+          <list id="70" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="71" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+          </list>
+          <list id="72" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Column</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control in the compact version. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="73" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ControlSource</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+          </list>
+          <list id="74" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="75" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+          </list>
+          <list id="76" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Header</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control in the compact version. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="77" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Caption</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Spinner</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as .NET control. The following members are available:</text></para>
+          <para styleclass="Normal"></para>
+          <list id="78" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Left</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Top</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Width</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Height</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Tag</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Value</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ControlSource</text></li>
+          </list>
+          <list id="79" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Visible</text></li>
+          </list>
+          <list id="80" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">BackColor</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ForeColor</text></li>
+          </list>
+          <list id="81" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">GotFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">LostFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Click()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">SetFocus()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Valid()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">When()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontName</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontSize</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontBold</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontItalic</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontUnderline</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">FontStrikeThru</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Refresh()</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">ReadOnly</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">TabIndex</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">Timer</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented as a .NET timer in the desktop and compact UI engine.</text></para>
+          <para styleclass="Normal"></para>
+          <list id="82" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Enabled</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Interval</text></li>
+            <li styleclass="Normal"><text styleclass="Normal" translate="true">Timer()</text></li>
+          </list>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

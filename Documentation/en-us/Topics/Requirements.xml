@@ -1,0 +1,31 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Requirements</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Requirements</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu has different requirements for you as the developer and the user of your applications. As a developer you need to run Visual FoxPro® on your development machine to create Guineu applications. Your users only need the Guineu runtime and the .NET framework. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">On the developer&apos;s computer</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Microsoft Visual FoxPro® 9.0. If Visual FoxPro® is licensed for academic use only, you can use Guineu only for academic purposes, as well. </text></li>
+      <li styleclass="Normal" style="text-align:left; text-indent:0px; margin-top:6px; margin-right:0px; margin-bottom:0px; margin-left:0px; line-height:1.0; white-space:normal; page-break-inside:auto; page-break-after:auto;"><text styleclass="Normal" translate="true">Microsoft .NET Framework 2.0 or compatible.</text></li>
+    </list>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">End-users machines</text></para>
+    <list id="2" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="Normal" style="font-family:Symbol; font-size:11pt; color:#000000;">
+      <li styleclass="Normal"><text styleclass="Normal" translate="true">Microsoft .NET Framework 2.0 or compatible.</text></li>
+    </list>
+    <para style="margin-top:19px; margin-bottom:10px;"><text style="font-family:Verdana; font-size:13pt; color:#000080;" translate="true">Operating system for compact version</text></para>
+    <para style="margin-top:6px;"><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">Windows Mobile Software for Pocket PC 2003, Windows Mobile 5.0 for PocketPC, Windows CE .NET 5.0 and higher.</text></para>
+    <para style="margin-top:19px; margin-bottom:10px;"><text style="font-family:Verdana; font-size:13pt; color:#000080;" translate="true">Operating system for desktop version</text></para>
+    <para style="margin-top:6px;"><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">Windows 2000 Service Pack 3; Windows 98; Windows 98 Second Edition; Windows ME; Windows Server 2003; Windows Vista Business; Windows Vista Business 64-bit edition; Windows Vista Enterprise; Windows Vista Enterprise 64-bit edition; Windows Vista Home Basic; Windows Vista Home Basic 64-bit edition; Windows Vista Home Premium; Windows Vista Home Premium 64-bit edition; Windows Vista Starter; Windows Vista Ultimate; Windows Vista Ultimate 64-bit edition; Windows XP Service Pack 2; any platform supported by Mono (</text><link displaytype="text" defaultstyle="true" type="weblink" href="http://www.mono-project.com/Supported_Platforms" target="_blank" style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">http://www.mono-project.com/Supported_Platforms</link><text style="font-family:Verdana; font-size:11pt; color:#000000;" translate="true">).</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Additional required software</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu uses additional software components. Even though some of them come bundled with Guineu, you are not allowed to re-distribute them with your own application. In order to distribute your application, you need to download these libraries yourself and accept their license agreement:</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Smart Device Framework 2.2 &#160;</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The Smart Device Framework is required for Windows Mobile applications. You can download the free Community edition of the framework at </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.opennetcf.com/Products/SmartDeviceFramework/CommunityEdition/tabid/67/Default.aspx</link><text styleclass="Normal" translate="true">.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Visual WebGUI Framework</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">The Visual WebGUI Framework is required for ASP.NET applications written with Guineu. You can download the free framework from </text><link displaytype="text" defaultstyle="true" type="weblink" href="&lt;%LINK_CAPTION%&gt;" target="_blank" styleclass="Normal" translate="true">http://www.visualwebgui.com/tabid/110/default.aspx</link><text styleclass="Normal" translate="true">.</text><text styleclass="Normal" translate="true">&#32;</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

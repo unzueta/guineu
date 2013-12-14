@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">NODEFAULT Command</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">NODEFAULT Command</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Prevents the execution of an event&apos;s native behavior.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">NODEFAULT</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">DEFINE CLASS Command</text></para>
+  </body>
+</topic>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Unicode support</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Unicode support</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Internally Guineu works with Unicode exclusively. Every time a non-Unicode file is read or written, Guineu performs a conversion to Unicode.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Controls do not impose any limitation on what a user can enter. Therefore it&apos;s always possible to enter any valid Unicode character. Functions that need to output ANSI data, e.g. STRTOFILE(), perform a conversion to ANSI as needed. Unicode characters that are not recognized are converted to a single question mark. This corresponds to the default behavior of VFP when converting from Unicode.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYS8000_-_Unicode_support" styleclass="Normal" translate="true">SYS(8000) - Unicode support</link></para>
+  </body>
+</topic>

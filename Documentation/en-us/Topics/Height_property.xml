@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Height Property</title>
+  <keywords>
+    <keyword translate="true">Height Property</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Height Property</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Specifies the height of a control on the screen.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Object.Height = nHeight</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nHeight</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Specifies the height of the control in pixel.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Windows Mobile:</text><text styleclass="Normal" translate="true"> The height property cannot be changed for a number of controls. The following table explains the effect for each control affected.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table styleclass="Description Table" rowcount="2" colcount="2">
+      <thead style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Control</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Limitation</text></para>
+        </td>
+      </thead>
+      <tr style="vertical-align:top">
+        <td style="width:147px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">TextBox</text></para>
+        </td>
+        <td style="width:547px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:normal;" translate="true">The height of a TextBox depends on the font assigned to the textbox. Changing the FontName or the FontSize properties also changes the height of a TextBox control. The height is always sufficient to show exactly one line of text. Changing the Height property has no effect on the TextBox&apos; dimensions.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

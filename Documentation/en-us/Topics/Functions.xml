@@ -1,0 +1,1590 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" status="Out Of Date" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Functions</title>
+  <keywords>
+    <keyword translate="true">OS()</keyword>
+  </keywords>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Functions</text></para>
+    </header>
+    <para><table rowcount="170" colcount="2" style="width:auto; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:0px; border-spacing:0px; cell-border-width:0px; border-style:none; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ABS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ACOS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="ADDBS" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ADDBS()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ADEL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="ADIR" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ADIR()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Currently only the first two columns are filled.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">AERROR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px; height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ALEN()</text></para>
+        </td>
+        <td style="height:32px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ALIAS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ALINES()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ALLTRIM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="APRINTERS" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">APRINTERS()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ASC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. ASC() operates on the current system codepage. Any codepage definition in the Config.FPW file is currently ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ASCAN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">partially implemented. Not fully working.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ASIN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">AT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ATAN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ATC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ATN2()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BETWEEN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITAND()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITCLEAR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITLSHIFT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITNOT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITOR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITRSHIFT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITSET()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITTEST()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BITXOR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">BOF()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CEILING()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CHR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. CHR() uses the current codepage ignoring any custom code page specification in the Config.FPW file.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CHRTRAN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CMONTH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">COS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CREATEOBJECT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for native classes. COM objects cannot be instantiated. Additional parameters are not supported.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP: </text><text styleclass="Normal" translate="true">You can load .NET objects that have been made available by SET CLASSLIB TO.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CTOD()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="CTOT" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CTOT()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="CURDIR" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">CURDIR()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DATE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DATETIME()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DAY()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DEFAULTEXT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DELETED()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DIRECTORY()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DISPLAYPATH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DRIVETYPE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DTOC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DTOR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">DTOS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EMPTY()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EOF()</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EVALUATE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for field, variable and property access. Calculations can not yet be performed.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EVL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">EXP()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FCOUNT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FCHSIZE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FCLOSE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FCREATE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Supports file names with an exclamation mark.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FDATE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. nType Parameter not supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FEOF()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FERROR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FIELD()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FFLUSH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FGETS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FILE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Unix based systems the file name is case-sensitive.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FILETOSTR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" translate="true"> Files with more than 16 MB are supported. On Unix based systems the file name is case-sensitive. Files with a byte-order mark or a UTF-8 flag are recognized as Unicode file when Unicode support is enabled. See SYS(8000).</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FLOOR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FONTMETRIC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FOPEN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Supports file names with an exclamation mark.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FORCEEXT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FORCEPATH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FOUND()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FPUTS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FREAD()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FSEEK()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FTIME()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="FULLPATH" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FULLPATH()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The syntax with two parameters is not supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FV()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">FWRITE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="GETENV" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GETENV()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GETPEM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GETWORDCOUNT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GETWORDNUM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">GOMONTH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">HOUR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ICASE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">IIF()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">INLIST()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">INT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ISALPHA()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ISDIGIT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ISLOWER()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ISNULL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ISUPPER()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">JUSTDRIVE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">JUSTEXT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">JUSTFNAME()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">JUSTPATH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">JUSTSTEM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LEFT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LEN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOG()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOG10()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">LOWER()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MAX()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MESSAGEBOX()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MIN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MINUTE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">MONTH()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">NEWOBJECT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for native classes. COM objects cannot be instantiated. Additional parameters are not supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">NVL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">OCCURS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="OS" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">OS()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for 1-6</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PADC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PADL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PADR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PARAMETERS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP: </text><text styleclass="Normal" translate="true">PARAMETERS() behaves like PCOUNT() and is not reset for other calls.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PAYMENT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PI()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PROGRAM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">PV()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">QUARTER()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RAND()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" translate="true"> Guineu uses a different algorithm to generate random numbers.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RAT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RATC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RECCOUNT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RECNO()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">REPLICATE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RGB()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RIGHT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">ROUND()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">RTOD()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SEC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SECONDS()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Mono platforms the resolution of SECONDS() is approximately 50 ms.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SEEK()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Currently the last parameter with the index tag is ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SELECT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SIGN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SIN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SOUNDEX()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SPACE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SQLDISCONNECT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SQLEXEC()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented for queries that return a single result set. SQLSETPROP() is ignored. Queries are always executed synchronously. AERROR() isn&apos;t updated.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SQLSTRINGCONNECT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Not all errors are handled. AERROR() is not set. SQLSETPROP() settings are ignored.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SQRT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRCONV" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STRCONV()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Differences to VFP: </text><text styleclass="Normal" translate="true">Additional conversion types available.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STREXTRACT()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Strings with more than 16 MB are supported.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="STRTOFILE" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STRTOFILE()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. The lAdditive/nFlag parameter is currently ignored.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> On Unix based systems, the file name is case-sensitive. Supports Strings with more than 16 MB. In Unicode mode the file is written with UTF-8 encoding and no byte order mark. See SYS(8000) for details.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STRTRAN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">STUFF()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SUBSTR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Supports strings with more than 16 MB.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(0)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(1)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(2)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(3)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(16)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(1079)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. </text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(2000)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYS(2015)</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="SYSMETRIC" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">SYSMETRIC()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">TAN()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="TIME" styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">TIME()</link></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">TRANSFORM()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented. Only &quot;@0&quot; is currently supported as a format code. Numeric values ignore SET(&quot;DECIMALS&quot;).</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">TTOD()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">UPPER()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Supports strings with more than 16 MB.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">USED()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">VAL()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">VARTYPE()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">VERSION()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Difference to VFP:</text><text styleclass="Normal" style="font-weight:normal;" translate="true"> Guineu uses version number 09.10 instead of 09.00.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:212px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-family:&apos;Courier New&apos;;" translate="true">YEAR()</text></para>
+        </td>
+        <td>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Implemented.</text></para>
+        </td>
+      </tr>
+    </table></para>
+  </body>
+</topic>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">KeyPress event</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">KeyPress event</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Is triggered when a user presses and releases a key or a key combination.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">Object.KeyPress( nKeyCode, nShiftAltCtrl )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nKeyCode</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">A number that identifies the key being pressed. </text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">nShiftAltCtrl</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">A bit pattern that specifies which modifier keys have been pressed along with the key identified by nKeyCode. The following table lists the bits.</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table styleclass="Description Table" rowcount="4" colcount="3">
+      <tr style="vertical-align:top">
+        <td style="width:110px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">nShiftAltCtrl</text></para>
+        </td>
+        <td style="width:39px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Bit</text></para>
+        </td>
+        <td style="width:1283px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:110px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="width:39px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">0</text></para>
+        </td>
+        <td style="width:1283px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">SHIFT</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:110px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td style="width:39px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="width:1283px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">CTRL</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:110px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">4</text></para>
+        </td>
+        <td style="width:39px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2</text></para>
+        </td>
+        <td style="width:1283px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">ALT</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The parameter is the sum of these bits. Some, none or all of these bits can be set. For example, if ALT and CTRL are pressed, the parameter is 6. Valid values range from 0 to 7. Call the BITTEST() function to test for a particular key. Pass the number of the bit as identified by the Bit column value.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Applies to: TextBox Control | ListBox Control</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Compatibility</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Only nKeyCode = 13 and nShiftAltCtrl = 0 are currently supported. On the desktop, KeyPress is only supported in the ListBox control.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">See also</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">INKEY()</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">BITTEST()</text></para>
+  </body>
+</topic>

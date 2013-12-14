@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Guineu.compact.exe</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Guineu.compact.exe</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Courier Fixed" translate="true">Guineu.compact.exe</text><text styleclass="Normal" translate="true"> is the runtime executable for mobile applications. It runs on Pocket PC 2003 and Windows Mobile using the Microsoft .NET Compact Framework 2.0. </text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">Guineu.compact.exe [cFxpFile]</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Arguments</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cFxpFile</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Name of an FXP file that is executed. If you omit the name of the FXP file, Guineu uses the name of the EXE and replaces it with FXP. That is, by default, Guineu searches for a Guineu.compact.FXP file. You can deploy your application by renaming Guineu.compact.EXE to the name of your main FXP file. </text></para>
+    <para styleclass="Inline heading"></para>
+  </body>
+</topic>

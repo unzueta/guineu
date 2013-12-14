@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">SYS(8011) - Support options</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">SYS(8011) - Support options</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Enables support options when resolving issues with Guineu.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Syntax</text></para>
+    <para styleclass="Code Example"><text styleclass="Code Example" translate="true">SYS( 8011, cOption [, uNewValue] )</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Parameters</text></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">cOption</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">Name of the support option. The following table lists valid values for cOption:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="2" colcount="2" style="width:100%; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#999999; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:167px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">cOption</text></para>
+        </td>
+        <td style="width:740px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:167px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">LogRecordGather</text></para>
+        </td>
+        <td style="width:740px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Every time a record is written to disk, Guineu adds a line to the record.gather.txt file in the current (for desktop computers) or the root (for mobile devices) directory. The log file specifies which records have been changed.</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Parameter"><text styleclass="Parameter" translate="true">uNewValue</text></para>
+    <para styleclass="Explanation"><text styleclass="Explanation" translate="true">The following table lists the meaning for the new value for each option:</text></para>
+    <para styleclass="Explanation"></para>
+    <para styleclass="Explanation"><table rowcount="3" colcount="3" style="width:100%; cell-padding:0px; cell-spacing:0px; page-break-inside:auto; border-width:1px; border-spacing:0px; border-collapse:collapse; cell-border-width:1px; border-color:#999999; border-style:solid; background-color:none; head-row-background-color:none; alt-row-background-color:none;">
+      <tr style="vertical-align:top">
+        <td style="width:167px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">cOption</text></para>
+        </td>
+        <td style="width:56px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Value</text></para>
+        </td>
+        <td style="width:683px;">
+          <para styleclass="Normal"><text styleclass="Normal" style="font-weight:bold;" translate="true">Description</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:167px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">LogRecordGather</text></para>
+        </td>
+        <td style="width:56px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">0</text></para>
+        </td>
+        <td style="width:683px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Turns logging off</text></para>
+        </td>
+      </tr>
+      <tr style="vertical-align:top">
+        <td style="width:167px;">
+        </td>
+        <td style="width:56px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1</text></para>
+        </td>
+        <td style="width:683px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Turns logging on</text></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Return value</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Returns a numeric value as a character string that indicates the previous state. If you don&apos;t pass a third parameter, Guineu returns the current state without changing it.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Remarks</text></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">When you contact Guineu support, you might be asked to run your code with one or more of these options enabled. The resulting log files help us to resolve support issues and fix bugs in Guineu. SYS(8011) is not meant to be used during regular development work.</text></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

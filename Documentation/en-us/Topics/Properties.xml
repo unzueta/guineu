@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Properties</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Properties</text></para>
+    </header>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="BorderColor_property" styleclass="Topic List" translate="true">BorderColor property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="BorderStyle_property" styleclass="Topic List" translate="true">BorderStyle property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Enabled_Property" styleclass="Topic List" translate="true">Enabled Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Height_property" styleclass="Topic List" translate="true">Height Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Interval_Property" styleclass="Topic List" translate="true">Interval Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="PenWidth_property" styleclass="Topic List" translate="true">PenWidth property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Picture_Property" styleclass="Topic List" translate="true">Picture Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="ScrollBars_Property" styleclass="Topic List" translate="true">ScrollBars Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SelLength_Property" styleclass="Topic List" translate="true">SelLength Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SelStart_Property" styleclass="Topic List" translate="true">SelStart Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Signature_property" styleclass="Topic List" translate="true">Signature property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="TabIndex_property" styleclass="Topic List" translate="true">TabIndex Property</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="Value_Property" styleclass="Topic List" translate="true">Value Property</link></para>
+  </body>
+</topic>

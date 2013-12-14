@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Commands</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Commands</text></para>
+    </header>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">D</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="DO" styleclass="Topic List" translate="true">DO </link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">G</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="GATHER_Command" styleclass="Topic List" translate="true">GATHER Command</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">L</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="LOOP_Command" styleclass="Topic List" translate="true">LOOP Command</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">N</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="NODEFAULT_Command" styleclass="Topic List" translate="true">NODEFAULT Command</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">P</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="PARAMETERS_Command" styleclass="Topic List" translate="true">PARAMETERS Command</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="PRIVATE_Command" styleclass="Topic List" translate="true">PRIVATE Command</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">S</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SCATTER_Command" styleclass="Topic List" translate="true">SCATTER Command</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SET_CLASSLIB" styleclass="Topic List" translate="true">SET CLASSLIB Command</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SET_PROCEDURE_Command" styleclass="Topic List" translate="true">SET PROCEDURE Command</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SET_SAFETY" styleclass="Topic List" translate="true">SET SAFETY</link></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="SKIP" styleclass="Topic List" translate="true">SKIP</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">U</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="USE" styleclass="Topic List" translate="true">USE</link></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Z</text></para>
+    <para styleclass="Topic List"><link displaytype="text" defaultstyle="true" type="topiclink" href="ZAP" styleclass="Topic List" translate="true">ZAP</link></para>
+  </body>
+</topic>

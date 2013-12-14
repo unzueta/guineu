@@ -1,0 +1,30 @@
+﻿<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Signature sample</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Signature sample</text></para>
+    </header>
+    <para styleclass="Normal"><table styleclass="Default" rowcount="1" colcount="2">
+      <tr style="vertical-align:top">
+        <td style="width:312px;">
+          <para styleclass="Normal"><image src="clip0008.bmp" scale="100.00%" styleclass="Image Caption"></image></para>
+        </td>
+        <td style="width:457px;">
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">The Signature sample demonstrates the usage of the Signature control to capture signatures.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">Run the Signature.PJX sample (see picture) to capture signatures. Steps are as follows:</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">1. Enter anything into the text box. The address is displayed when you exit the field.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">2. Sign on the signature area.</text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">3. Click the &quot;Delivered&quot; button. The signature and the image of the signature are stored in the Tracking.DBF table. </text></para>
+          <para styleclass="Normal"></para>
+          <para styleclass="Normal"><text styleclass="Normal" translate="true">You can browse this table in Visual FoxPro. Use the DesktopSignature.SCX form to display the signature bitmap. The PICTURE memo field contains a BMP file. Displaying the image only requires to assign the content to the PictureVal property of an image control.</text></para>
+          <para styleclass="Normal"></para>
+        </td>
+      </tr>
+    </table></para>
+    <para styleclass="Normal"></para>
+  </body>
+</topic>

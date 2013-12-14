@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../helpproject.xsl" ?>
+<topic template="Default" lasteditedby="Christof" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../helpproject.xsd">
+  <title translate="true">Introduction</title>
+  <body>
+    <header>
+      <para styleclass="Heading1"><text styleclass="Heading1" translate="true">Introduction</text></para>
+    </header>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Guineu is an add-on for Microsoft Visual FoxPro® 9.0. It&apos;s an alternative runtime library that allows the execution of compiled FoxPro code on any .NET compliant platform.</text></para>
+    <para styleclass="Inline heading"><text styleclass="Inline heading" translate="true">Documentation overview</text></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Getting_Started" styleclass="Normal" translate="true">Getting started</link></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides information about how to install Guineu and supporting tools. Offers first steps to create your first application with Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Supported_language_features" styleclass="Normal" translate="true">Supported Features</link></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides a quick overview on which features are already available in Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Windows_Mobile_Application" styleclass="Normal" translate="true">Developing Mobile Applications</link></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides an introduction how to develop applications for mobile devices with Guineu.</text></para>
+    <para styleclass="Normal"></para>
+    <para styleclass="Normal"><link displaytype="text" defaultstyle="true" type="topiclink" href="Language_reference" styleclass="Normal" translate="true">Reference</link></para>
+    <para styleclass="Normal"><text styleclass="Normal" translate="true">Provides detailed information about all supported language elements, extensions that work only in Guineu, and comprehensive syntax information.</text></para>
+  </body>
+</topic>
