@@ -7,9 +7,9 @@ namespace Guineu
 {
 	class INSERTSQL : ICommand
 	{
-		ExpressionBase Alias;
-		List<ExpressionBase> Fields = new List<ExpressionBase>();
-		List<ExpressionBase> Values = new List<ExpressionBase>();
+		ExpressionBase alias;
+		readonly List<ExpressionBase> fields = new List<ExpressionBase>();
+		readonly List<ExpressionBase> values = new List<ExpressionBase>();
 
 		enum Element
 		{
@@ -21,7 +21,7 @@ namespace Guineu
 		{
 			Token nextToken = code.Reader.PeekToken();
 			var comp = new Compiler(null, code);
-			Element current = Element.Fields;
+			var current = Element.Fields;
 
 			do
 			{
@@ -29,7 +29,7 @@ namespace Guineu
 				{
 					case Token.INTO:
 						code.Reader.ReadToken();
-						Alias = comp.GetCompiledExpression();
+						alias = comp.GetCompiledExpression();
 						break;
 					case Token.OpenParenthesis:
 					case Token.Parenthesis:
@@ -41,7 +41,7 @@ namespace Guineu
 						current = Element.Values;
 						break;
 					default:
-						List<ExpressionBase> list = (current == Element.Fields ? Fields : Values); 
+						List<ExpressionBase> list = (current == Element.Fields ? fields : values); 
 						list.Add(comp.GetCompiledExpression());
 						break;
 				}
@@ -51,15 +51,15 @@ namespace Guineu
 
 		public void Do(CallingContext exec, ref Int32 nextLine)
 		{
-			ICursor csr = exec.GetCursor(Alias);
+			ICursor csr = exec.GetCursor(alias);
 			csr.Append();
 
-			for(var i=0;i<Values.Count;i++)
+			for(var i=0;i<values.Count;i++)
 			{
-				Variant val = Values[i].GetVariant(exec);
+				Variant val = values[i].GetVariant(exec);
 				Nti fieldName;
-				if (Fields.Count > i)
-					fieldName = Fields[i].ToNti(exec);
+				if (fields.Count > i)
+					fieldName = fields[i].ToNti(exec);
 				else
 				{
 					fieldName = csr.Columns[i].Name;

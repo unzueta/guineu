@@ -10,11 +10,15 @@ namespace Guineu
 			cmd.Register<CLEAREVENTS>(CommandTokens.CLEAR, Token.EVENTS);
 			cmd.Register<CLOSEDATABASES>(CommandTokens.CLOSE, Token.DATABASES);
 			cmd.Register<COPYFILE>(CommandTokens.COPY, Token.FILE_Clause);
+			cmd.Register<COUNT>(CommandTokens.COUNT);
 			cmd.Register<CREATECURSOR>(CommandTokens.CREATE, Token.CURSOR);
 			cmd.Register<DELETEFILE>(CommandTokens.DELETE, Token.FILE_Clause);
+			cmd.Register<INSERTSQL>(CommandTokens.INSERTSQL);
+			cmd.Register<MKDIR>(CommandTokens.MKDIR);
 			cmd.Register<READEVENTS>(CommandTokens.READ, Token.EVENTS);
 			cmd.Register<SETFILTER>(CommandTokens.SET, SetToken.FILTER);
 			cmd.Register<SETORDER>(CommandTokens.SET, SetToken.ORDER);
+			cmd.Register<SUM>(CommandTokens.SUM);
 			cmd.Register<PRINT>(CommandTokens.PRINT);
 			cmd.Register<PRINTPRINT>(CommandTokens.PRINTPRINT);
 			cmd.Register<SCAN>(CommandTokens.SCAN);

@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
 using Guineu.Data;
 using Guineu.Expression;
 
@@ -13,7 +11,7 @@ namespace Guineu
 
 		public void Compile(CodeBlock code)
 		{
-			Compiler Comp = new Compiler(null, code);
+			var comp = new Compiler(null, code);
 			Token nextToken = code.Reader.PeekToken();
 			do
 			{
@@ -21,10 +19,7 @@ namespace Guineu
 				{
 					case Token.FOR:
 						code.Reader.ReadToken();
-						forClause = Comp.GetCompiledExpression();
-						break;
-
-					default:
+						forClause = comp.GetCompiledExpression();
 						break;
 				}
 				nextToken = code.Reader.PeekToken();

@@ -134,11 +134,20 @@
     <Compile Include="..\Guineu\Commands\AddMethod.cs">
       <Link>Commands\AddMethod.cs</Link>
     </Compile>
+    <Compile Include="..\Guineu\Commands\COUNT.cs">
+      <Link>Commands\COUNT.cs</Link>
+    </Compile>
     <Compile Include="..\Guineu\Commands\EXTERNAL.cs">
       <Link>Commands\EXTERNAL.cs</Link>
     </Compile>
+    <Compile Include="..\Guineu\Commands\INSERT %28SQL%29.cs">
+      <Link>Commands\INSERT %28SQL%29.cs</Link>
+    </Compile>
     <Compile Include="..\Guineu\Commands\MacroSubstitution.cs">
       <Link>Commands\MacroSubstitution.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\MKDIR.cs">
+      <Link>Commands\MKDIR.cs</Link>
     </Compile>
     <Compile Include="..\Guineu\Commands\NODEFAULT.cs">
       <Link>Commands\NODEFAULT.cs</Link>
@@ -151,6 +160,9 @@
     </Compile>
     <Compile Include="..\Guineu\Commands\SET POINT.cs">
       <Link>Commands\SET POINT.cs</Link>
+    </Compile>
+    <Compile Include="..\Guineu\Commands\SUM.cs">
+      <Link>Commands\SUM.cs</Link>
     </Compile>
     <Compile Include="..\Guineu\Expression\FunctionBase.cs">
       <Link>Expression\FunctionBase.cs</Link>

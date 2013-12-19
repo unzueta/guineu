@@ -5,12 +5,12 @@ namespace Guineu.Commands
 {
 	class DELETE : ICommand
 	{
-		readonly IteratorClause Iterator;
+		readonly IteratorClause iterator;
 		readonly InClause In;
 
 		public DELETE()
 		{
-			Iterator = new IteratorClause();
+			iterator = new IteratorClause();
 			In = new InClause();
 		}
 
@@ -28,7 +28,7 @@ namespace Guineu.Commands
 						if (InClause.Follows(nextToken))
 							In.Compile(code);
 						else if (IteratorClause.Follows(nextToken))
-							Iterator.Compile(nextToken, code);
+							iterator.Compile(nextToken, code);
 						else
 							throw new ErrorException(ErrorCodes.UnrecognizedKeyword);
 						break;
@@ -40,7 +40,7 @@ namespace Guineu.Commands
 		{
 			using (var csr = In.Get(exec))
 			{
-				var itr = Iterator.Get(exec);
+				var itr = iterator.Get(exec);
 				while (itr.HasMore(exec))
 				{
 					csr.Cursor.Delete();

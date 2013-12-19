@@ -10,6 +10,15 @@ namespace Guineu.Commands
 		ExpressionBase WhileClause;
 		ScopeClause Scope;
 		Boolean Optimize = true;
+		readonly Boolean AllRecords;
+
+		public IteratorClause(Boolean allRecords)
+			: this()
+		{
+			AllRecords = allRecords;
+		}
+
+		public IteratorClause() { }
 
 		static public Boolean Follows(Token nextToken)
 		{
@@ -65,6 +74,8 @@ namespace Guineu.Commands
 				return new ScopeRest();
 			if (ForClause != null)
 				return new ScopeAll();
+			if (AllRecords)
+				return new ScopeAll();
 			return new ScopeNext(1);
 		}
 
@@ -72,9 +83,9 @@ namespace Guineu.Commands
 		{
 			if (ForClause == null)
 				return null;
-			
+
 			// TODO: Create optimizable FOR
-			if(Optimize)
+			if (Optimize)
 				return new ForConditionChecker(null, ctx, ForClause);
 
 			return new ForConditionChecker(null, ctx, ForClause);

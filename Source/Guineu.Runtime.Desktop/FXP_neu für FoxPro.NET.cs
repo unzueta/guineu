@@ -300,6 +300,10 @@ namespace Guineu
 		public CompiledProgram(string filename)
 		{
 			fullName = GuineuInstance.FileMgr.FullPath(filename, false);
+			// TODO: VFP searches in the following order: 
+			//   1) the specified full name (eg. programs/mycode.fxp)
+			//   2) The current PATH using the full name (ie. adding programs/mycode.fxp to each path)
+			//   3) In the current directory for just the file name (ie. just mycode.fxp)
 			name = Path.GetFileNameWithoutExtension(filename);
 			// reader = new FxpReader(filename);
 			fxp = new FxpFile(this);

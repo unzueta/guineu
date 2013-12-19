@@ -848,6 +848,11 @@ namespace Guineu
 			}
 		}
 
+		public static implicit operator decimal(Variant value)
+		{
+			return (decimal) (Double) value;
+		}
+
 		public static implicit operator Boolean(Variant value)
 		{
 			switch (value.type)
