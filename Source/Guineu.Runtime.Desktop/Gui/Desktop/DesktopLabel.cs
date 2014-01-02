@@ -102,7 +102,7 @@ namespace Guineu.Gui.Desktop
                         break;
                     }
 
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -147,7 +147,7 @@ namespace Guineu.Gui.Desktop
 					if (FontHandling.Handles(nti))
 						return FontHandling.Get(this, nti);
 
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -160,7 +160,7 @@ namespace Guineu.Gui.Desktop
 					return new Variant(true);
 
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, name);
 			}
 		}
 

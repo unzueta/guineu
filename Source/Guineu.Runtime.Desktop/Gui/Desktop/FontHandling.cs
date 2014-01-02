@@ -68,7 +68,7 @@ namespace Guineu.Gui.Desktop
                     return new Variant(ctrl.Font.Underline);
 
             }
-            throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+            throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
         }
 
         private static void SetFontStyle(FontStyle style, Control ctrl, bool setStyle)

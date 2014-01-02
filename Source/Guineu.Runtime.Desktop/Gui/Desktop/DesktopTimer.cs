@@ -30,7 +30,7 @@ namespace Guineu.Gui.Desktop
 						break;
 
 					default:
-						throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+						throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 				}
 			}
 		}
@@ -81,7 +81,7 @@ namespace Guineu.Gui.Desktop
 				case KnownNti.Interval:
 					return new Variant(Interval, 10);
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -90,7 +90,7 @@ namespace Guineu.Gui.Desktop
 			switch (name)
 			{
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, name);
 			}
 		}
 

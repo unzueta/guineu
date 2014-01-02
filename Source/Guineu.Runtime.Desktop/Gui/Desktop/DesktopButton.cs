@@ -184,7 +184,7 @@ public string GuiDownPicture
 					    break;
 					}
 
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -235,7 +235,7 @@ public string GuiDownPicture
 					if (FontHandling.Handles(nti))
 						return FontHandling.Get(this, nti);
 
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -252,7 +252,7 @@ public string GuiDownPicture
 					return new Variant(true);
 
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, name);
 			}
 		}
 

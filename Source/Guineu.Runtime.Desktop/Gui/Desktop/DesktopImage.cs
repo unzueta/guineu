@@ -86,7 +86,7 @@ namespace Guineu.Gui.Desktop
 					break;
 
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -131,7 +131,7 @@ namespace Guineu.Gui.Desktop
 					return new Variant(Visible);
 
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, nti);
 			}
 		}
 
@@ -144,7 +144,7 @@ namespace Guineu.Gui.Desktop
 					return new Variant(true);
 
 				default:
-					throw new ErrorException(ErrorCodes.PropertyIsNotFound);
+					throw new ErrorException(ErrorCodes.PropertyIsNotFound, name);
 			}
 		}
 
